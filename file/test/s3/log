@@ -1,0 +1,97 @@
+[2024-05-08T00:02:26.057Z][LOG] cS3_inline - 100mb.txt - start
+[2024-05-08T00:02:32.847Z][LOG] cS3_inline - 100mb.txt - end
+
+[2024-05-08T00:02:42.862Z][LOG] cS3_inline - 300mb.txt - start
+[2024-05-08T00:02:59.977Z][LOG] cS3_inline - 300mb.txt - end
+
+---------------------------------------------------------------
+[2024-05-08T00:06:52.592Z][LOG] cS3_streaming - 100mb.txtpercent progress = 0.0625
+[2024-05-08T00:06:52.597Z][LOG] cS3_streaming - 100mb.txtpercent progress = 5
+[2024-05-08T00:06:52.633Z][LOG] cS3_streaming - 100mb.txtpercent progress = 10
+[2024-05-08T00:06:52.638Z][LOG] cS3_streaming - 100mb.txtpercent progress = 15
+[2024-05-08T00:06:53.627Z][LOG] cS3_streaming - 100mb.txtpercent progress = 20
+[2024-05-08T00:06:53.645Z][LOG] cS3_streaming - 100mb.txtpercent progress = 25
+[2024-05-08T00:06:53.656Z][LOG] cS3_streaming - 100mb.txtpercent progress = 30
+[2024-05-08T00:06:53.776Z][LOG] cS3_streaming - 100mb.txtpercent progress = 35
+[2024-05-08T00:06:54.479Z][LOG] cS3_streaming - 100mb.txtpercent progress = 40
+[2024-05-08T00:06:54.878Z][LOG] cS3_streaming - 100mb.txtpercent progress = 45
+[2024-05-08T00:06:55.120Z][LOG] cS3_streaming - 100mb.txtpercent progress = 50
+[2024-05-08T00:06:55.202Z][LOG] cS3_streaming - 100mb.txtpercent progress = 55
+[2024-05-08T00:06:55.292Z][LOG] cS3_streaming - 100mb.txtpercent progress = 60
+[2024-05-08T00:06:55.521Z][LOG] cS3_streaming - 100mb.txtpercent progress = 65
+[2024-05-08T00:06:56.001Z][LOG] cS3_streaming - 100mb.txtpercent progress = 70
+[2024-05-08T00:06:56.020Z][LOG] cS3_streaming - 100mb.txtpercent progress = 75
+[2024-05-08T00:06:56.750Z][LOG] cS3_streaming - 100mb.txtpercent progress = 80
+[2024-05-08T00:06:56.798Z][LOG] cS3_streaming - 100mb.txtpercent progress = 85
+[2024-05-08T00:06:57.282Z][LOG] cS3_streaming - 100mb.txtpercent progress = 90
+[2024-05-08T00:06:57.549Z][LOG] cS3_streaming - 100mb.txtpercent progress = 95
+[2024-05-08T00:06:57.638Z][LOG] cS3_streaming - 100mb.txtpercent progress = 100
+[2024-05-08T00:06:57.650Z][LOG] cS3_streaming - 100mb.txtstream end
+[2024-05-08T00:06:57.651Z][LOG] cS3_streaming - 100mb.txtstream close
+
+[2024-05-08T00:08:14.589Z][LOG] cS3_streaming - 300mb.txtpercent progress = 0.020833333333333332
+[2024-05-08T00:08:14.593Z][LOG] cS3_streaming - 300mb.txtpercent progress = 1.6666666666666667
+[2024-05-08T00:08:14.631Z][LOG] cS3_streaming - 300mb.txtpercent progress = 3.3333333333333335
+[2024-05-08T00:08:14.634Z][LOG] cS3_streaming - 300mb.txtpercent progress = 5
+[2024-05-08T00:08:15.614Z][LOG] cS3_streaming - 300mb.txtpercent progress = 6.666666666666667
+[2024-05-08T00:08:15.629Z][LOG] cS3_streaming - 300mb.txtpercent progress = 8.020833333333334
+[2024-05-08T00:08:15.630Z][LOG] cS3_streaming - 300mb.txtpercent progress = 8.333333333333334
+[2024-05-08T00:08:15.644Z][LOG] cS3_streaming - 300mb.txtpercent progress = 10
+[2024-05-08T00:08:15.847Z][LOG] cS3_streaming - 300mb.txtpercent progress = 11.666666666666666
+[2024-05-08T00:08:16.441Z][LOG] cS3_streaming - 300mb.txtpercent progress = 13.333333333333334
+[2024-05-08T00:08:16.566Z][LOG] cS3_streaming - 300mb.txtpercent progress = 15
+[2024-05-08T00:08:16.979Z][LOG] cS3_streaming - 300mb.txtpercent progress = 16.666666666666668
+[2024-05-08T00:08:17.476Z][LOG] cS3_streaming - 300mb.txtpercent progress = 18.333333333333332
+[2024-05-08T00:08:17.640Z][LOG] cS3_streaming - 300mb.txtpercent progress = 20
+[2024-05-08T00:08:17.986Z][LOG] cS3_streaming - 300mb.txtpercent progress = 21.666666666666668
+[2024-05-08T00:08:18.330Z][LOG] cS3_streaming - 300mb.txtpercent progress = 23.333333333333332
+[2024-05-08T00:08:18.800Z][LOG] cS3_streaming - 300mb.txtpercent progress = 25
+[2024-05-08T00:08:18.979Z][LOG] cS3_streaming - 300mb.txtpercent progress = 26.666666666666668
+[2024-05-08T00:08:19.291Z][LOG] cS3_streaming - 300mb.txtpercent progress = 28.333333333333332
+[2024-05-08T00:08:19.571Z][LOG] cS3_streaming - 300mb.txtpercent progress = 30
+[2024-05-08T00:08:19.859Z][LOG] cS3_streaming - 300mb.txtpercent progress = 31.666666666666668
+[2024-05-08T00:08:20.058Z][LOG] cS3_streaming - 300mb.txtpercent progress = 33.333333333333336
+[2024-05-08T00:08:20.439Z][LOG] cS3_streaming - 300mb.txtpercent progress = 35
+[2024-05-08T00:08:20.738Z][LOG] cS3_streaming - 300mb.txtpercent progress = 36.666666666666664
+[2024-05-08T00:08:20.988Z][LOG] cS3_streaming - 300mb.txtpercent progress = 38.333333333333336
+[2024-05-08T00:08:21.271Z][LOG] cS3_streaming - 300mb.txtpercent progress = 40
+[2024-05-08T00:08:21.568Z][LOG] cS3_streaming - 300mb.txtpercent progress = 41.666666666666664
+[2024-05-08T00:08:21.842Z][LOG] cS3_streaming - 300mb.txtpercent progress = 43.333333333333336
+[2024-05-08T00:08:22.359Z][LOG] cS3_streaming - 300mb.txtpercent progress = 45
+[2024-05-08T00:08:22.658Z][LOG] cS3_streaming - 300mb.txtpercent progress = 46.666666666666664
+[2024-05-08T00:08:22.885Z][LOG] cS3_streaming - 300mb.txtpercent progress = 48.333333333333336
+[2024-05-08T00:08:22.964Z][LOG] cS3_streaming - 300mb.txtpercent progress = 50
+[2024-05-08T00:08:23.208Z][LOG] cS3_streaming - 300mb.txtpercent progress = 51.666666666666664
+[2024-05-08T00:08:23.539Z][LOG] cS3_streaming - 300mb.txtpercent progress = 53.333333333333336
+[2024-05-08T00:08:23.912Z][LOG] cS3_streaming - 300mb.txtpercent progress = 55
+[2024-05-08T00:08:24.397Z][LOG] cS3_streaming - 300mb.txtpercent progress = 56.666666666666664
+[2024-05-08T00:08:24.758Z][LOG] cS3_streaming - 300mb.txtpercent progress = 58.333333333333336
+[2024-05-08T00:08:25.275Z][LOG] cS3_streaming - 300mb.txtpercent progress = 60
+[2024-05-08T00:08:25.293Z][LOG] cS3_streaming - 300mb.txtpercent progress = 61.666666666666664
+[2024-05-08T00:08:25.886Z][LOG] cS3_streaming - 300mb.txtpercent progress = 63.333333333333336
+[2024-05-08T00:08:26.201Z][LOG] cS3_streaming - 300mb.txtpercent progress = 65
+[2024-05-08T00:08:26.469Z][LOG] cS3_streaming - 300mb.txtpercent progress = 66.66666666666667
+[2024-05-08T00:08:26.784Z][LOG] cS3_streaming - 300mb.txtpercent progress = 68.33333333333333
+[2024-05-08T00:08:26.863Z][LOG] cS3_streaming - 300mb.txtpercent progress = 70
+[2024-05-08T00:08:27.339Z][LOG] cS3_streaming - 300mb.txtpercent progress = 71.66666666666667
+[2024-05-08T00:08:27.603Z][LOG] cS3_streaming - 300mb.txtpercent progress = 73.33333333333333
+[2024-05-08T00:08:27.632Z][LOG] cS3_streaming - 300mb.txtpercent progress = 75
+[2024-05-08T00:08:27.906Z][LOG] cS3_streaming - 300mb.txtpercent progress = 76.66666666666667
+[2024-05-08T00:08:28.181Z][LOG] cS3_streaming - 300mb.txtpercent progress = 78.33333333333333
+[2024-05-08T00:08:28.570Z][LOG] cS3_streaming - 300mb.txtpercent progress = 80
+[2024-05-08T00:08:28.840Z][LOG] cS3_streaming - 300mb.txtpercent progress = 81.66666666666667
+[2024-05-08T00:08:30.091Z][LOG] cS3_streaming - 300mb.txtpercent progress = 83.33333333333333
+[2024-05-08T00:08:30.107Z][LOG] cS3_streaming - 300mb.txtpercent progress = 85
+[2024-05-08T00:08:30.821Z][LOG] cS3_streaming - 300mb.txtpercent progress = 86.66666666666667
+[2024-05-08T00:08:30.903Z][LOG] cS3_streaming - 300mb.txtpercent progress = 88.33333333333333
+[2024-05-08T00:08:31.023Z][LOG] cS3_streaming - 300mb.txtpercent progress = 90
+[2024-05-08T00:08:31.376Z][LOG] cS3_streaming - 300mb.txtpercent progress = 91.66666666666667
+[2024-05-08T00:08:31.513Z][LOG] cS3_streaming - 300mb.txtpercent progress = 93.33333333333333
+[2024-05-08T00:08:31.690Z][LOG] cS3_streaming - 300mb.txtpercent progress = 95
+[2024-05-08T00:08:31.934Z][LOG] cS3_streaming - 300mb.txtpercent progress = 96.66666666666667
+[2024-05-08T00:08:32.272Z][LOG] cS3_streaming - 300mb.txtpercent progress = 98.33333333333333
+[2024-05-08T00:08:32.559Z][LOG] cS3_streaming - 300mb.txtpercent progress = 100
+[2024-05-08T00:08:32.574Z][LOG] cS3_streaming - 300mb.txtstream end
+[2024-05-08T00:08:32.576Z][LOG] cS3_streaming - 300mb.txtstream close
+
+---------------------------------------------------------------

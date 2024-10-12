@@ -1,0 +1,17 @@
+*.log
+*.logs
+*.sln
+*.user
+*.njsproj
+output.txt
+.vs/
+obj/
+node_modules/
+coverage/
+temp/
+output-settings.csv
+output-applications.csv
+*.csv
+*.bak
+bin/Microsoft.NodejsTools.WebRole.dll
+.env

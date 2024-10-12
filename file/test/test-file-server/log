@@ -1,0 +1,377 @@
+[2024-05-08T00:56:06.424Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.062193870544433594
+[2024-05-08T00:56:06.428Z][LOG] stream resume
+[2024-05-08T00:56:06.429Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.0625
+[2024-05-08T00:56:06.429Z][LOG] stream pause
+[2024-05-08T00:56:06.429Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.12468528747558594
+[2024-05-08T00:56:06.430Z][LOG] stream resume
+[2024-05-08T00:56:06.430Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.125
+[2024-05-08T00:56:06.430Z][LOG] stream pause
+[2024-05-08T00:56:06.430Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.18717670440673828
+[2024-05-08T00:56:06.431Z][LOG] stream resume
+[2024-05-08T00:56:06.431Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.1875
+[2024-05-08T00:56:06.431Z][LOG] stream pause
+[2024-05-08T00:56:06.431Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.24966812133789062
+[2024-05-08T00:56:06.431Z][LOG] stream resume
+[2024-05-08T00:56:06.432Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.25
+[2024-05-08T00:56:06.432Z][LOG] stream pause
+[2024-05-08T00:56:06.432Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.31215953826904297
+[2024-05-08T00:56:06.432Z][LOG] stream resume
+[2024-05-08T00:56:06.432Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.3125
+[2024-05-08T00:56:06.432Z][LOG] stream pause
+[2024-05-08T00:56:06.432Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.3746509552001953
+[2024-05-08T00:56:06.433Z][LOG] stream resume
+[2024-05-08T00:56:06.433Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.375
+[2024-05-08T00:56:06.433Z][LOG] stream pause
+[2024-05-08T00:56:06.433Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 0.43714237213134766
+.
+.
+.
+[2024-05-08T00:56:07.352Z][LOG] stream resume
+[2024-05-08T00:56:07.352Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.1875
+[2024-05-08T00:56:07.352Z][LOG] stream pause
+[2024-05-08T00:56:07.352Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.2360725402832
+[2024-05-08T00:56:07.352Z][LOG] stream resume
+[2024-05-08T00:56:07.353Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.25
+[2024-05-08T00:56:07.353Z][LOG] stream pause
+[2024-05-08T00:56:07.353Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.29856395721436
+[2024-05-08T00:56:07.353Z][LOG] stream resume
+[2024-05-08T00:56:07.353Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.3125
+[2024-05-08T00:56:07.353Z][LOG] stream pause
+[2024-05-08T00:56:07.353Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.36105537414551
+[2024-05-08T00:56:07.353Z][LOG] stream resume
+[2024-05-08T00:56:07.353Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.375
+[2024-05-08T00:56:07.353Z][LOG] stream pause
+[2024-05-08T00:56:07.353Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.42354679107666
+[2024-05-08T00:56:07.353Z][LOG] stream resume
+[2024-05-08T00:56:07.353Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.4375
+[2024-05-08T00:56:07.353Z][LOG] stream pause
+[2024-05-08T00:56:07.353Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.48603820800781
+[2024-05-08T00:56:07.354Z][LOG] stream resume
+[2024-05-08T00:56:07.354Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.5
+[2024-05-08T00:56:07.354Z][LOG] stream pause
+[2024-05-08T00:56:07.354Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.54852962493896
+[2024-05-08T00:56:07.354Z][LOG] stream resume
+[2024-05-08T00:56:07.354Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.5625
+[2024-05-08T00:56:07.354Z][LOG] stream pause
+[2024-05-08T00:56:07.354Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.61102104187012
+[2024-05-08T00:56:07.354Z][LOG] stream resume
+[2024-05-08T00:56:07.354Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.625
+[2024-05-08T00:56:07.354Z][LOG] stream pause
+[2024-05-08T00:56:07.354Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.67351245880127
+[2024-05-08T00:56:07.354Z][LOG] stream resume
+[2024-05-08T00:56:07.354Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.6875
+[2024-05-08T00:56:07.354Z][LOG] stream pause
+[2024-05-08T00:56:07.355Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.73600387573242
+[2024-05-08T00:56:07.355Z][LOG] stream resume
+[2024-05-08T00:56:07.355Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.75
+[2024-05-08T00:56:07.355Z][LOG] stream pause
+[2024-05-08T00:56:07.355Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.79849529266357
+[2024-05-08T00:56:07.355Z][LOG] stream resume
+[2024-05-08T00:56:07.355Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.8125
+[2024-05-08T00:56:07.355Z][LOG] stream pause
+[2024-05-08T00:56:07.355Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.86098670959473
+[2024-05-08T00:56:07.355Z][LOG] stream resume
+[2024-05-08T00:56:07.355Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.875
+[2024-05-08T00:56:07.355Z][LOG] stream pause
+[2024-05-08T00:56:07.355Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.92347812652588
+[2024-05-08T00:56:07.355Z][LOG] stream resume
+[2024-05-08T00:56:07.356Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.9375
+[2024-05-08T00:56:07.356Z][LOG] stream pause
+[2024-05-08T00:56:07.356Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 99.98596954345703
+[2024-05-08T00:56:07.356Z][LOG] stream resume
+[2024-05-08T00:56:07.356Z][LOG] sTestServer2File_streaming - streamed_100mb.txtpercent progress = 100
+[2024-05-08T00:56:07.357Z][LOG] sTestServer2File_streaming - streamed_100mb.txtstream end
+[2024-05-08T00:56:07.362Z][LOG] sTestServer2File_streaming - streamed_100mb.txtstream close
+
+
+[2024-05-08T00:56:06.391Z][LOG] cTestServer2X_streaming - 100mb.txt - start
+[2024-05-08T00:56:06.418Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.0625
+[2024-05-08T00:56:06.422Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.125
+[2024-05-08T00:56:06.422Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.1875
+[2024-05-08T00:56:06.423Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.25
+[2024-05-08T00:56:06.424Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.3125
+[2024-05-08T00:56:06.424Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.375
+[2024-05-08T00:56:06.425Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.4375
+[2024-05-08T00:56:06.425Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.5
+[2024-05-08T00:56:06.426Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.5625
+[2024-05-08T00:56:06.427Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.625
+[2024-05-08T00:56:06.427Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.6875
+[2024-05-08T00:56:06.428Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.75
+[2024-05-08T00:56:06.429Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.8125
+[2024-05-08T00:56:06.429Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.875
+[2024-05-08T00:56:06.430Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.9375
+[2024-05-08T00:56:06.430Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1
+.
+.
+.
+[2024-05-08T00:56:06.889Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.1875
+[2024-05-08T00:56:06.889Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.25
+[2024-05-08T00:56:06.889Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.3125
+[2024-05-08T00:56:06.889Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.375
+[2024-05-08T00:56:06.889Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.4375
+[2024-05-08T00:56:06.889Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.5
+[2024-05-08T00:56:06.890Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.5625
+[2024-05-08T00:56:06.890Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.625
+[2024-05-08T00:56:06.890Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.6875
+[2024-05-08T00:56:06.890Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.75
+[2024-05-08T00:56:06.890Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.8125
+[2024-05-08T00:56:06.890Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.875
+[2024-05-08T00:56:06.891Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.9375
+[2024-05-08T00:56:06.891Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99
+[2024-05-08T00:56:06.891Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.0625
+[2024-05-08T00:56:06.891Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.125
+[2024-05-08T00:56:06.891Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.1875
+[2024-05-08T00:56:06.892Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.25
+[2024-05-08T00:56:06.892Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.3125
+[2024-05-08T00:56:06.892Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.375
+[2024-05-08T00:56:06.892Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.4375
+[2024-05-08T00:56:06.892Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.5
+[2024-05-08T00:56:06.893Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.5625
+[2024-05-08T00:56:06.893Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.625
+[2024-05-08T00:56:06.893Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.6875
+[2024-05-08T00:56:06.893Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.75
+[2024-05-08T00:56:06.893Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.8125
+[2024-05-08T00:56:06.893Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.875
+[2024-05-08T00:56:06.894Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.9375
+[2024-05-08T00:56:06.894Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 100
+[2024-05-08T00:56:06.894Z][LOG] cTestServer2X_streaming - 100mb.txt; stream end
+[2024-05-08T00:56:06.895Z][LOG] cTestServer2X_streaming - 100mb.txt; stream close
+
+---------------------------------------------------------------
+
+
+[2024-05-08T01:53:27.862Z][LOG] stream resume
+[2024-05-08T01:53:27.863Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.020731290181477863
+[2024-05-08T01:53:27.864Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.020833333333333332
+[2024-05-08T01:53:27.865Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.04156176249186198
+[2024-05-08T01:53:27.865Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.041666666666666664
+[2024-05-08T01:53:27.866Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.062392234802246094
+[2024-05-08T01:53:27.866Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.0625
+[2024-05-08T01:53:27.866Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.0832227071126302
+[2024-05-08T01:53:27.866Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.08333333333333333
+[2024-05-08T01:53:27.867Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.10405317942301433
+[2024-05-08T01:53:27.867Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.10416666666666667
+[2024-05-08T01:53:27.867Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.12488365173339844
+[2024-05-08T01:53:27.867Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.125
+[2024-05-08T01:53:27.868Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.14571412404378256
+[2024-05-08T01:53:27.868Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.14583333333333334
+[2024-05-08T01:53:27.868Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.16654459635416666
+[2024-05-08T01:53:27.868Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.16666666666666666
+[2024-05-08T01:53:27.869Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.18737506866455078
+[2024-05-08T01:53:27.869Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.1875
+[2024-05-08T01:53:27.869Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.2082055409749349
+[2024-05-08T01:53:27.869Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.20833333333333334
+[2024-05-08T01:53:27.869Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.229036013285319
+[2024-05-08T01:53:27.870Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.22916666666666666
+[2024-05-08T01:53:27.870Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.24986648559570312
+[2024-05-08T01:53:27.870Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.25
+[2024-05-08T01:53:27.870Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.2706969579060872
+[2024-05-08T01:53:27.870Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.2708333333333333
+[2024-05-08T01:53:27.870Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.2915274302164714
+[2024-05-08T01:53:27.871Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.2916666666666667
+[2024-05-08T01:53:27.871Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.31235790252685547
+[2024-05-08T01:53:27.871Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.3125
+[2024-05-08T01:53:27.871Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.33318837483723956
+[2024-05-08T01:53:27.871Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.3333333333333333
+[2024-05-08T01:53:27.872Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.3540188471476237
+[2024-05-08T01:53:27.872Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.3541666666666667
+[2024-05-08T01:53:27.872Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.3748493194580078
+[2024-05-08T01:53:27.872Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 0.375
+.
+.
+.
+[2024-05-08T01:53:37.911Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 56.666666666666664
+[2024-05-08T01:53:38.350Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 58.333333333333336
+[2024-05-08T01:53:38.492Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 60
+[2024-05-08T01:53:38.884Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 61.666666666666664
+[2024-05-08T01:53:39.189Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 63.333333333333336
+[2024-05-08T01:53:39.569Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 65
+[2024-05-08T01:53:39.891Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 66.66666666666667
+[2024-05-08T01:53:40.269Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 68.33333333333333
+[2024-05-08T01:53:40.453Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 70
+[2024-05-08T01:53:40.566Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 71.66666666666667
+[2024-05-08T01:53:40.727Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 73.33333333333333
+[2024-05-08T01:53:40.894Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 75
+[2024-05-08T01:53:41.173Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 76.66666666666667
+[2024-05-08T01:53:41.411Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 78.33333333333333
+[2024-05-08T01:53:41.839Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 80
+[2024-05-08T01:53:42.129Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 81.66666666666667
+[2024-05-08T01:53:42.468Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 83.33333333333333
+[2024-05-08T01:53:42.595Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 85
+[2024-05-08T01:53:42.735Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 86.66666666666667
+[2024-05-08T01:53:43.067Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 88.33333333333333
+[2024-05-08T01:53:43.321Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 90
+[2024-05-08T01:53:43.659Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 91.66666666666667
+[2024-05-08T01:53:43.953Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 93.33333333333333
+[2024-05-08T01:53:44.315Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 95
+[2024-05-08T01:53:44.570Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 96.66666666666667
+[2024-05-08T01:53:44.588Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 98.33333333333333
+[2024-05-08T01:53:45.018Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; percent progress = 100
+[2024-05-08T01:53:45.034Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; stream end
+[2024-05-08T01:53:45.040Z][LOG] sTestServer2S3_streaming - streamed_300mb.txt; stream close
+
+
+[2024-05-08T01:53:27.379Z][LOG] cTestServer2X_streaming - 300mb.txt - start
+[2024-05-08T01:53:27.409Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.020833333333333332
+[2024-05-08T01:53:27.413Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.041666666666666664
+[2024-05-08T01:53:27.414Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.0625
+[2024-05-08T01:53:27.415Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.08333333333333333
+[2024-05-08T01:53:27.416Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.10416666666666667
+[2024-05-08T01:53:27.416Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.125
+[2024-05-08T01:53:27.417Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.14583333333333334
+[2024-05-08T01:53:27.417Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.16666666666666666
+[2024-05-08T01:53:27.418Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.1875
+[2024-05-08T01:53:27.419Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.20833333333333334
+[2024-05-08T01:53:27.420Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.22916666666666666
+[2024-05-08T01:53:27.421Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.25
+[2024-05-08T01:53:27.422Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.2708333333333333
+[2024-05-08T01:53:27.422Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.2916666666666667
+[2024-05-08T01:53:27.422Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.3125
+[2024-05-08T01:53:27.423Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.3333333333333333
+[2024-05-08T01:53:27.424Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.3541666666666667
+[2024-05-08T01:53:27.424Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.375
+[2024-05-08T01:53:27.425Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 0.3958333333333333
+.
+.
+.
+[2024-05-08T01:53:28.435Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.58333333333333
+[2024-05-08T01:53:28.435Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.60416666666667
+[2024-05-08T01:53:28.435Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.625
+[2024-05-08T01:53:28.435Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.64583333333333
+[2024-05-08T01:53:28.436Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.66666666666667
+[2024-05-08T01:53:28.436Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.6875
+[2024-05-08T01:53:28.436Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.70833333333333
+[2024-05-08T01:53:28.436Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.72916666666667
+[2024-05-08T01:53:28.436Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.75
+[2024-05-08T01:53:28.436Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.77083333333333
+[2024-05-08T01:53:28.436Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.79166666666667
+[2024-05-08T01:53:28.436Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.8125
+[2024-05-08T01:53:28.436Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.83333333333333
+[2024-05-08T01:53:28.437Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.85416666666667
+[2024-05-08T01:53:28.437Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.875
+[2024-05-08T01:53:28.437Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.89583333333333
+[2024-05-08T01:53:28.437Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.91666666666667
+[2024-05-08T01:53:28.438Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.9375
+[2024-05-08T01:53:28.438Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.95833333333333
+[2024-05-08T01:53:28.438Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 99.97916666666667
+[2024-05-08T01:53:28.438Z][LOG] cTestServer2X_streaming - 300mb.txt; percent progress = 100
+[2024-05-08T01:53:28.439Z][LOG] cTestServer2X_streaming - 300mb.txt; stream end
+[2024-05-08T01:53:28.440Z][LOG] cTestServer2X_streaming - 300mb.txt; stream close
+
+---------------------------------------------------------------
+
+[2024-05-08T02:00:32.271Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.062193870544433594
+[2024-05-08T02:00:32.271Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.0625
+[2024-05-08T02:00:32.272Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.12468528747558594
+[2024-05-08T02:00:32.272Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.125
+[2024-05-08T02:00:32.272Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.18717670440673828
+[2024-05-08T02:00:32.273Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.1875
+[2024-05-08T02:00:32.273Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.24966812133789062
+[2024-05-08T02:00:32.273Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.25
+[2024-05-08T02:00:32.273Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.31215953826904297
+[2024-05-08T02:00:32.274Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.3125
+[2024-05-08T02:00:32.274Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.3746509552001953
+[2024-05-08T02:00:32.274Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.375
+[2024-05-08T02:00:32.274Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.43714237213134766
+[2024-05-08T02:00:32.275Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.4375
+[2024-05-08T02:00:32.275Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.4996337890625
+[2024-05-08T02:00:32.275Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.5
+[2024-05-08T02:00:32.276Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.5621252059936523
+[2024-05-08T02:00:32.276Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.5625
+[2024-05-08T02:00:32.276Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.6246166229248047
+[2024-05-08T02:00:32.276Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.625
+[2024-05-08T02:00:32.276Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.687108039855957
+[2024-05-08T02:00:32.277Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.6875
+[2024-05-08T02:00:32.277Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.7495994567871094
+[2024-05-08T02:00:32.277Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 0.75
+.
+.
+.
+[2024-05-08T02:00:32.498Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 19.75
+[2024-05-08T02:00:32.498Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 19.81009864807129
+[2024-05-08T02:00:32.498Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 19.8125
+[2024-05-08T02:00:32.498Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 19.87259006500244
+[2024-05-08T02:00:32.498Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 19.875
+[2024-05-08T02:00:32.498Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 19.935081481933594
+[2024-05-08T02:00:32.499Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 19.9375
+[2024-05-08T02:00:32.499Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 19.997572898864746
+[2024-05-08T02:00:32.499Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 20
+[2024-05-08T02:00:34.451Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 25
+[2024-05-08T02:00:34.584Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 30
+[2024-05-08T02:00:34.945Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 35
+[2024-05-08T02:00:35.617Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 40
+[2024-05-08T02:00:35.960Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 45
+[2024-05-08T02:00:36.264Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 50
+[2024-05-08T02:00:36.519Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 55
+[2024-05-08T02:00:36.734Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 60
+[2024-05-08T02:00:37.031Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 65
+[2024-05-08T02:00:37.063Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 70
+[2024-05-08T02:00:37.401Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 75
+[2024-05-08T02:00:37.554Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 80
+[2024-05-08T02:00:38.023Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 85
+[2024-05-08T02:00:38.067Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 90
+[2024-05-08T02:00:38.437Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 95
+[2024-05-08T02:00:38.550Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; percent progress = 100
+[2024-05-08T02:00:38.561Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; stream end
+[2024-05-08T02:00:38.566Z][LOG] sTestServer2S3_streaming - streamed_100mb.txt; stream close
+
+[2024-05-08T02:00:31.816Z][LOG] cTestServer2X_streaming - 100mb.txt - start
+[2024-05-08T02:00:31.843Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.0625
+[2024-05-08T02:00:31.846Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.125
+[2024-05-08T02:00:31.847Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.1875
+[2024-05-08T02:00:31.848Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.25
+[2024-05-08T02:00:31.849Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.3125
+[2024-05-08T02:00:31.849Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.375
+[2024-05-08T02:00:31.850Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.4375
+[2024-05-08T02:00:31.850Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.5
+[2024-05-08T02:00:31.851Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.5625
+[2024-05-08T02:00:31.852Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.625
+[2024-05-08T02:00:31.853Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.6875
+[2024-05-08T02:00:31.854Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.75
+[2024-05-08T02:00:31.855Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.8125
+[2024-05-08T02:00:31.855Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.875
+[2024-05-08T02:00:31.856Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 0.9375
+[2024-05-08T02:00:31.856Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1
+[2024-05-08T02:00:31.857Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.0625
+[2024-05-08T02:00:31.857Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.125
+[2024-05-08T02:00:31.858Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.1875
+[2024-05-08T02:00:31.858Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.25
+[2024-05-08T02:00:31.859Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.3125
+[2024-05-08T02:00:31.860Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.375
+[2024-05-08T02:00:31.861Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.4375
+[2024-05-08T02:00:31.861Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.5
+[2024-05-08T02:00:31.862Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.5625
+[2024-05-08T02:00:31.863Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.625
+[2024-05-08T02:00:31.864Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.6875
+[2024-05-08T02:00:31.864Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.75
+[2024-05-08T02:00:31.865Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 1.8125
+.
+.
+.
+[2024-05-08T02:00:32.207Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.625
+[2024-05-08T02:00:32.207Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.6875
+[2024-05-08T02:00:32.207Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.75
+[2024-05-08T02:00:32.207Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.8125
+[2024-05-08T02:00:32.207Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.875
+[2024-05-08T02:00:32.207Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 98.9375
+[2024-05-08T02:00:32.207Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99
+[2024-05-08T02:00:32.208Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.0625
+[2024-05-08T02:00:32.208Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.125
+[2024-05-08T02:00:32.208Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.1875
+[2024-05-08T02:00:32.208Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.25
+[2024-05-08T02:00:32.208Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.3125
+[2024-05-08T02:00:32.208Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.375
+[2024-05-08T02:00:32.208Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.4375
+[2024-05-08T02:00:32.209Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.5
+[2024-05-08T02:00:32.209Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.5625
+[2024-05-08T02:00:32.209Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.625
+[2024-05-08T02:00:32.209Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.6875
+[2024-05-08T02:00:32.209Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.75
+[2024-05-08T02:00:32.210Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.8125
+[2024-05-08T02:00:32.210Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.875
+[2024-05-08T02:00:32.210Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 99.9375
+[2024-05-08T02:00:32.211Z][LOG] cTestServer2X_streaming - 100mb.txt; percent progress = 100
+[2024-05-08T02:00:32.212Z][LOG] cTestServer2X_streaming - 100mb.txt; stream end
+[2024-05-08T02:00:32.214Z][LOG] cTestServer2X_streaming - 100mb.txt; stream close
+
+---------------------------------------------------------------

@@ -1,0 +1,23 @@
+{
+  "name": "files",
+  "version": "1.0.0",
+  "description": "This is a files server to upload the files on AWS S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mithun K",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.537.0",
+    "aws-sdk": "^2.1528.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1"
+  }
+}

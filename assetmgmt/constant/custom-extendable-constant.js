@@ -1,0 +1,84 @@
+var USER_ROLE_NAMES = {
+    /*
+    * USER_ROLE supported in this system
+    */
+    SUPERADMIN: 'superadmin',
+    ADMIN: 'admin',
+    ENTERPRISE_ROOT_OWNER: 'enterprise_root_owner',
+    ENTERPRISE_OWNER: 'enterprise_owner',
+};
+
+var USER_ROLE_ASSOCIATION = {
+    NONE: 'none',
+    ONE: 'one',
+    MANY: 'many'
+};
+
+var USER_HEIRARCHICAL_ROLE_TYPE = {
+    NONE: 'none',
+    ROOT: 'root',
+    SUB: 'sub',
+    NODE: 'node'
+};
+
+
+var USER_ROLES = [
+    {
+        CODE: USER_ROLE_NAMES.SUPERADMIN,
+        LEVEL: 0,
+        SSO_SUBJECT: 'sso token for ' + USER_ROLE_NAMES.SUPERADMIN,
+        CUSTOM_ROLE: false,
+        SINGLETON: true,
+        SYSTEM_ROLE: true,
+        CONTENT_OWNER: false,
+        HIERARCHICAL_ROLE: USER_HEIRARCHICAL_ROLE_TYPE.NONE,
+        ROLE_ASSOCIATION_TYPE: USER_ROLE_ASSOCIATION.NONE
+    },
+    {
+        //TODO
+        CODE: USER_ROLE_NAMES.ADMIN,
+        LEVEL: 1,
+        SSO_SUBJECT: 'sso token for ' + USER_ROLE_NAMES.ADMIN,
+        CUSTOM_ROLE: false,
+        SINGLETON: false,
+        SYSTEM_ROLE: true,
+        CONTENT_OWNER: false,
+        HIERARCHICAL_ROLE: USER_HEIRARCHICAL_ROLE_TYPE.NONE,
+        ROLE_ASSOCIATION_TYPE: USER_ROLE_ASSOCIATION.NONE
+    },
+    {
+        CODE: USER_ROLE_NAMES.ENTERPRISE_ROOT_OWNER,
+        LEVEL: 2,
+        SSO_SUBJECT: 'sso token for ' + USER_ROLE_NAMES.ENTERPRISE_ROOT_OWNER,
+        CUSTOM_ROLE: false,
+        SINGLETON: false,
+        SYSTEM_ROLE: true,
+        CONTENT_OWNER: false,
+        HIERARCHICAL_ROLE: USER_HEIRARCHICAL_ROLE_TYPE.ROOT,
+        ROLE_ASSOCIATION_TYPE: USER_ROLE_ASSOCIATION.MANY,
+        ASSOCIATE_ROLE_NAME: USER_ROLE_NAMES.ENTERPRISE_OWNER
+    },
+    {
+        CODE: USER_ROLE_NAMES.ENTERPRISE_OWNER,
+        LEVEL: 3,
+        SSO_SUBJECT: 'sso token for ' + USER_ROLE_NAMES.ENTERPRISE_OWNER,
+        CUSTOM_ROLE: false,
+        SINGLETON: false,
+        SYSTEM_ROLE: true,
+        CONTENT_OWNER: false,
+        HIERARCHICAL_ROLE: USER_HEIRARCHICAL_ROLE_TYPE.SUB,
+        ROLE_ASSOCIATION_TYPE: USER_ROLE_ASSOCIATION.ONE,
+        ASSOCIATE_ROLE_NAME: USER_ROLE_NAMES.ENTERPRISE_ROOT_OWNER
+    }
+];
+
+const CUSTOM_USER_ROLE_START_LEVEL = 10;
+
+module.exports = {
+    USER_ROLE_NAMES,
+    USER_ROLE_ASSOCIATION,
+    USER_HEIRARCHICAL_ROLE_TYPE,
+    USER_ROLES,
+    CUSTOM_USER_ROLE_START_LEVEL
+    
+};

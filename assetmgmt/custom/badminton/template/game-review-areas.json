@@ -1,0 +1,52 @@
+{
+  "strokeTechnique": {
+    "forehand": [
+      "Half Smash",
+      "Simple Keep",
+      "Dribble",
+      "Net tap",
+      "Drive",
+      "Defensive block",
+      "Serve",
+      "Pull drop",
+      "Smash",
+      "Clear",
+      "Lift",
+      "Drop"
+    ],
+    "backhand": [
+      "Simple Keep",
+      "Dribble",
+      "Net tap",
+      "Drive",
+      "Defensive block",
+      "Serve",
+      "Pull drop",
+      "Clear",
+      "Lift",
+      "Drop"
+    ],
+    "overhead": [
+      "Half Smash",
+      "Drop",
+      "Clear",
+      "Smash"
+    ]
+  },
+  "footwork": {
+    "attack": [
+      "Forehand Smash",
+      "Overhead Smash",
+      "Defence block to attack",
+      "Single step attacking strokes",
+      "Dribble & Smash"
+    ],
+    "defence": [
+      "Forehand list & defence",
+      "Backhand list & defence",
+      "Keep & Pull Drops",
+      "Clear & defence",
+      "Both corner defence"
+    ]
+  }
+}

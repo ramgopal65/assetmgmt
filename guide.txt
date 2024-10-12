@@ -1,0 +1,85 @@
+This file details the style guides used
+
+INDEX
+1. REST interface
+2. json
+3. MongoDB style guide
+4. java script style guide
+
+
+1. REST interface
+-----------------
+A. Specification
+~~~~~~~~~~~~~~~~
+Shall follow current version of Open API Specification(OAS). Refer to the OAS specifications at https://spec.openapis.org/oas/latest.html
+
+B. Naming rules
+~~~~~~~~~~~~~~~
+The following rules shall be followed for naming the resources and URIs used in the REST interfaces:
+Resources:
+ - Use nouns for naming resources
+ - Use singular nouns in cases where reference is being made to a singleton resource
+ - Use plural nouns for cases where reference made could either be to a collection or singleton resource based on condition
+ - Resources should be identified by one word nouns only
+ - Use only lowercase letters for identifying the resources
+ - When a significant new behaviour of an existing resource is provided, use the version number after the resource in the URI. Example - /employee would refer to original version and /employee/v1 would refer to new version. The original version will not have any version information. Subsequent revisions shall be identified by /v1, /v2, etc.
+URIs:
+ - Hierarchical resource relationships should be represented by forward slash (/) 
+ - Do not use trailing forward slash (/) in the URI
+ - Use only resource names as part of the URIs
+ - CRUD oprations should be indicated as part of the HTTP methods
+ - Use query component to filter URI collection
+ 
+2. json style guide
+-------------------
+A. Specification
+~~~~~~~~~~~~~~~~
+Shall follow https://google.github.io/styleguide/jsoncstyleguide.xml
+
+B. Naming rules
+~~~~~~~~~~~~~~~
+ - Singular for singleton and plural for collections. For objects that can be either singleton or collection, plural names should be used
+ - Multiple word object name should use camelCase notation
+ 
+
+3. MongoDB style guide
+----------------------
+A. Naming rules
+~~~~~~~~~~~~~~~
+a. Database
+===========
+ - Database name shall identify the purpose 
+ - Only lower case
+ - If DB name consists of more than one word, join the words
+ - Do not use "-" or "_"
+ - Append "db"
+ - Example - employeesettingsdb
+ 
+ b. Collections
+ ==============
+ - Collection name shall identify the purpose 
+ - Shall be in plural
+ - Use camelCase
+ - Example - deviceSettings
+
+ c. Field Names
+ ==============
+ - Follow standard json convention
+
+
+4. java script style guide
+--------------------------
+A. Naming rules
+~~~~~~~~~~~~~~~
+As described in https://javascript.info/coding-style
+
+B. Coding guidelines
+~~~~~~~~~~~~~~~~~~~~
+As described in https://google.github.io/styleguide/jsguide.html
+
+C. HTTP Status codes
+~~~~~~~~~~~~~~~~~~~~
+As described in rfc9110(https://www.rfc-editor.org/rfc/rfc9110.html)
+
+
+

@@ -1,0 +1,37 @@
+Streaming:
+1. Direct to S3:
+client - cS3_streaming  -- PPP
+
+2. To S3 via test file server  -- PPP
+server - sTestServer2S3_streaming
+client - cTestServer2S3_streaming
+
+3. To S3 via File Server -- pass
+client - cFileServer2S3_streaming
+
+4. To S3 via File Server via Intermediate test server  -- pass
+server - sIntermediateServer2FileServer2S3_streaming
+client - cIntermediateServer2FileServer2S3_streaming
+
+5. To S3 via File Server via AssetMgmt server ===> Browser client - tbd
+client - c2AMServer2FileServer2S3_streaming
+
+
+Inline:
+1. Direct to S3:
+client - cS3_inline - PPP
+
+2. To S3 via test file server 
+server - sTestServer2S3_inline
+client - cTestServer2S3_inline
+
+3. To S3 via File Server
+client - cFileServer2S3_inline
+
+4. To S3 via File Server via Intermediate test server
+server - sIntermediateServer2FileServer2S3_inline
+client - cIntermediateServer2FileServer2S3_inline
+
+5. To S3 via File Server via AssetMgmt server ===> Browser client
+client - c2AMServer2FileServer2S3_inline
+

@@ -1,0 +1,29 @@
+{
+  "strokeTechnique": {
+    "forehand": [
+      "Dribble"
+    ],
+    "backhand": [
+      "Net tap",
+      "Drop"
+    ]
+  },
+  "footwork": {
+    "attack": [
+      "Forehand Smash",
+      "Overhead Smash"
+    ],
+    "defence": [
+      "Both corner defence"
+    ]
+  }
+}
+
+
+{
+  "strokeTechnique": {
+    "forehand": [
+      "Smash"
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "strokeTechnique": {
+    "forehand": [
+      {
+        "Dribble": [
+          {
+            "feedbackArea": "ABCD",
+            "clips": [
+              {
+                "fileName": "forehand_dribble_abcd1.mp4",
+                "tnFileName": "forehand_dribble_abcd1.jpeg",
+                "observation": "string"
+              },
+              {
+                "fileName": "forehand_dribble_abcd2.mp4",
+                "tnFileName": "forehand_dribble_abcd2.jpeg",
+                "observation": "string"
+              }
+            ],
+            "correct_approach_video": {
+              "fileName": "correct_forehand_dribble_abcd.mp4",
+              "tnFileName": "correct_forehand_dribble_abcd.jpeg",
+              "recommendations": "string"
+            }
+          },
+          {
+            "feedbackArea": "EFGH",
+            "clips": [
+              {
+                "fileName": "forehand_dribble_efgh1.mp4",
+                "tnFileName": "forehand_dribble_efgh1.jpeg",
+                "observation": "string"
+              },
+              {
+                "fileName": "forehand_dribble_efgh2.mp4",
+                "tnFileName": "forehand_dribble_efgh2.jpeg",
+                "observation": "string"
+              }
+            ],
+            "correct_approach_video": {
+              "fileName": "correct_forehand_dribble_efgh.mp4",
+              "tnFileName": "correct_forehand_dribble_efgh.jpeg",
+              "recommendations": "string"
+            }
+          }
+        ]
+      }
+    ],
+    "backhand": [
+      {
+        "Net tap": [
+          {
+            "feedbackArea": "1234",
+            "clips": [
+              {
+                "fileName": "backhand_net-tap-1234.mp4",
+                "tnFileName": "backhand_net-tap-1234.jpeg",
+                "observation": "string"
+              }
+            ],
+            "correct_approach_video": {
+              "fileName": "correct_backhand_net-tap-1234.mp4",
+              "tnFileName": "correct_backhand_net-tap-1234.jpeg",
+              "recommendations": "string"
+            }
+          }
+        ]
+      },
+      {
+        "Drop": [
+          {
+            "feedbackArea": "XYZ",
+            "clips": [
+              {
+                "fileName": "backhand_drop_xyz.mp4",
+                "tnFileName": "backhand_drop_xyz.jpeg",
+                "observation": "string"
+              }
+            ],
+            "correct_approach_video": {
+              "fileName": "backhand_drop_xyz.mp4",
+              "tnFileName": "backhand_drop_xyz.jpeg",
+              "recommendations": "string"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "footwork": {
+    "attack": [
+      {
+        "Forehand Smash": [
+          {
+            "feedbackArea": "ijkl",
+            "clips": [
+              {
+                "fileName": "attack_forehand-smash_ijkl.mp4",
+                "tnFileName": "attack_forehand-smash_ijkl.jpeg",
+                "observation": "string"
+              }
+            ],
+            "correct_approach_video": {
+              "fileName": "correct_attack_forehand-smash_ijkl.mp4",
+              "tnFileName": "correct_attack_forehand-smash_ijkl.jpeg",
+              "recommendations": "string"
+            }
+          }
+        ]
+      },
+      {
+        "Overhead Smash": [
+          {
+            "feedbackArea": "mnop",
+            "clips": [
+              {
+                "fileName": "attack_overhead-smash_mnop.mp4",
+                "tnFileName": "attack_overhead-smash_mnop.jpeg",
+                "observation": "string"
+              }
+            ],
+            "correct_approach_video": {
+              "fileName": "correct_attack_overhead-smash_mnop.mp4",
+              "tnFileName": "correct_attack_overhead-smash_mnop.jpeg",
+              "recommendations": "string"
+            }
+          }
+        ]
+      }
+    ],
+    "defence": [
+      {
+        "Both corner defence": [
+          {
+            "feedbackArea": "pqrs",
+            "clips": [
+              {
+                "fileName": "defence_both-corner-defence_pqrs.mp4",
+                "tnFileName": "defence_both-corner-defence_pqrs.jpeg",
+                "observation": "string"
+              }
+            ],
+            "correct_approach_video": {
+              "fileName": "correct_defence_both-corner-defence_pqrs.mp4",
+              "tnFileName": "correct_defence_both-corner-defence_pqrs.jpeg",
+              "recommendations": "string"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+1. Organize common routes in common folder instead on in server
+2. Overall error handling scheme
+ - Conversion from mongoose error to app error
+3. improve process exit scenarios
+4. assetmgmt/util/constant to move to  assetmgmt/constant
+5, Improve naming in settings cache and common way of apps loading the settings
+6. Bootstrap loading the settings is tedious(bootstrap using settings cache and settings cache depends on bootstrap for apis)
+
+Tracker features
+a. check all the functions
+b. error handling mongoose error scenarions
+c. jest
+
+
+When needed:
+1. Mongoose virtuals
+
+
+AssetMgmt:
+AppError
+common DB connection helper usage for bootstrap
+Move the settingscache
+
+--------------------------------------------------------------------------------
+Improvements:
+1.achieve microservices readiness:
+  -eliminate(minimalize) direct code dependency on other microservices
+    -direct dependency should be limited to common(common code should move here), util and nothing else
+
+2a. achieve consistent/uniform layer specific function implementation across all endpoints
+  -example.js - identifies the endpoints and performs common functions like creating audit trail, authentication, authorization
+  -controllers/example.js - isolates route framework from underlying business logic
+  -helpers/example.js  - all input validations, preparations which needs interfacing with other parts of this system
+  -services/example.js  - prepare the data for db operations. uses the model for invoking db operations
+  -models/example.js  - implements all data validations
+
+2b  -uniform(templated) success and error in the layers across all endpoints
+    -use *synchronous like* patterns for all async operations for better readability using 'To'
+    -use reject, resolve([error, result]) for errors from lower layers. Use exception for exceptional behaviour in a function and convert to promise reject, resolve in the same functionsame function
+    -errors are bubbled up using promise reject(not using exception!)
+
+3. remove un-used arguments in the middleware functions
+
+4. write jest unit tests. full coverage
+
+5. strings to be picked from constants
+
+6. review ordering and contents of require
+
+status:
+bootstrap endpoints:
+/bootstrap/auths
+  - /login/application :post - auth of other application(to enable them to get settings, applications(why?))
+/bootstrap/settings  - applicable crud operations
+  - / :get, post, delete
+  - /:_id :get, put, delete
+  - /search :post
+/bootstrap/applications - applicable crud operations
+  - / :get
+  - /:_id :get
+/bootstrap/health - for operation supporrt
+  - get 
+
+server endpoints:
+/accounts/api - change to /assetmgmt 
+  - /devicemodels - change to /trackermodel
+  - /devicefeatures - change to /feature
+  -------------------------------------------------------------------------------
+
+  1. split ugs into admin, job, event saving, etc
+
+
+  -------------------------------------------------------------------------------
+  Understand and improve JWT usage
+
+
+  TODO Notification for Mithun
+  1. Content template for SMS and Email.

@@ -1,0 +1,80 @@
+{
+    "Stroke Technique": {
+        "Forehand": {
+            "smash": [
+                {
+                    "feedbackArea": "JHTL",
+                    "clips": [
+                        "user_input_video1_Forehand_smash_JHTL_1.mp4_compressed.mp4",
+                        "user_input_video1_Forehand_smash_JHTL_3.mp4_compressed.mp4"
+                    ],
+                    "observation": "Observation:\nYour current technique for executing a jump smash in badminton shows a significantly low jump height, which restricts your ability to hit the shuttle at the optimal point. This results in reduced power and a less aggressive angle of your smashes, making them easier for opponents to return.\n\nDemerits of Low Jump Height:\n\nReduced Power: The power of a smash increases with the height of the jump because it allows for greater downward force and speed on the shuttlecock\u200b (BadmintonMastery)\u200b\u200b (The Badminton Guide)\u200b.\nLimited Smash Angle: A higher jump enables a steeper smash angle, making it more difficult for the opponent to predict and return the shuttle effectively\u200b (The Badminton Guide)\u200b.\nCompromised Technique: Without sufficient height, you may compromise on form, particularly in arm and racket positioning, reducing overall smash effectiveness\u200b (The Badminton Guide)\u200b.",
+                    "recommendation": "Recommendations:\n\nStrength Training: Focus on strengthening your leg muscles through exercises like squats and lunges to improve your jump height\u200b (Behind the Scenes - HUNDRED Sports)\u200b. Building core strength is also crucial as it connects the upper and lower body movements essential for a powerful smash\u200b (Behind the Scenes - HUNDRED Sports)\u200b.\nTechnique Adjustment: Practice the correct jump smash technique:\nJump using both feet, pushing off predominantly with your non-racket foot for maximum height\u200b (BadmintonMastery)\u200b.\nSwing your racket arm up while keeping your elbow at a high angle and your wrist cocked back until the moment of impact\u200b (BadmintonMastery)\u200b.\nEnsure to hit the shuttle at the highest point of your jump to utilize gravitational force effectively\u200b (The Badminton Guide)\u200b.\nPractice Drills: Incorporate shadow drills to improve your footwork and body positioning without the shuttlecock. This will help in fine-tuning your jump timing and smash technique\u200b (BadmintonMastery)\u200b.\nCoach Supervision: Regular feedback sessions with a coach to monitor progress and tweak techniques as needed.\nBy improving your jump height and refining your smash technique, you'll enhance not only the power and angle of your smashes but also your overall game agility and threat on the court.",
+                    "correct_approach_video": "JHTL.mp4"
+                },
+                {
+                    "feedbackArea": "SCPLP",
+                    "clips": [
+                        "user_input_video1_Forehand_smash_SCPLP_7.mp4_compressed.mp4"
+                    ],
+                    "observation": "Observation:\nIn reviewing the available videos, it's evident that there is a tendency to contact the shuttle at the lowest point of your jump during a smash. This approach significantly hampers the effectiveness of your smash for several reasons:\n\nReduced Power and Speed: Contacting the shuttle at the lowest point of your jump decreases the potential power and speed of the smash. The jump smash, when executed correctly at the apex of the jump, can reach speeds exceeding 400 km per hour due to the increased force of gravity aiding the stroke\u200b (Master Badminton)\u200b.\n\nSuboptimal Angles for Attack: A higher contact point allows for a steeper angle of attack, making the shuttlecock descend more sharply and rapidly, which is harder for opponents to return effectively\u200b (UK Rules)\u200b.\n\nLimited Extension and Force Transfer: Hitting the shuttle at the highest point allows for full extension of the arm and optimal transfer of kinetic energy from the body through the racket to the shuttlecock, maximizing the impact and force of the smash\u200b ",
+                    "recommendation": "Recommendations:\nTo enhance your performance in executing a jump smash, consider the following scientifically backed strategies:\n\nImprove Jump Height and Timing: Focus on increasing your vertical leap through targeted plyometric exercises. This will allow you to contact the shuttle at a higher point, harnessing more gravitational force for a powerful smash\u200b (The Badminton Guide)\u200b. Practice timing your jump so that you make contact with the shuttle at the peak of your jump for maximum power transfer\u200b (The Badminton Guide)\u200b.\n\nStrengthen Core and Upper Body: Develop your core and upper body strength. A strong core stabilizes your body in the air, allowing for a more controlled and forceful hit. Enhanced upper body strength, particularly in the shoulders and arms, supports faster and more powerful racket swings\u200b (UK Rules)\u200b.\n\nTechnique Refinement: Work on perfecting the mechanics of the jump smash. This includes practicing the forehand grip, ensuring proper footwork to get behind the shuttle, and maintaining a relaxed yet firm grip on the racket to avoid limiting wrist movement which is crucial for a forceful smash\u200b (Master Badminton)\u200b.\n\nContinuous Practice with Feedback: Regular practice under the guidance of a coach can provide immediate feedback and corrections on your technique, helping to ingrain the proper mechanics in your muscle memory. Use video analysis to review your form and track improvement over time\u200b (BadConnect)\u200b.",
+                    "correct_approach_video": "SCPLP.mp4"
+                }
+            ],
+            "lift": [
+                {
+                    "feedbackArea": "LLTW",
+                    "clips": [
+                        "user_input_video1_Forehand_lift_LLTW_10.mp4_compressed.mp4"
+                    ],
+                    "observation": "Observation:\nThe student has a long lunge length, exceeding the ideal 1.5 times leg length. This negatively impacts body balance, stroke stability, and recovery speed.\n\nAnalysis:\n\nImpact on Stroke Quality:\n\nLong lunges lead to instability, reducing shot accuracy and power\u200b (PLOS)\u200b\u200b (PeerJ)\u200b.\nIt causes greater joint and muscle strain, increasing fatigue and injury risk, such as patellar tendinitis and ACL injuries\u200b (PLOS)\u200b.\nBiomechanical Implications:\n\nExcessive lunge length disrupts force distribution, affecting performance and increasing injury potential\u200b (PeerJ)\u200b.",
+                    "recommendation": "Recommendations:\n\nIdeal Lunge Length: Practice lunges within 1.5 times leg length for better balance and control.\nStrength and Flexibility: Strengthen lower body muscles and improve flexibility with exercises like squats and balance drills.\nTechnique Drills: Focus on proper foot placement and quick recovery to the ready position.\nThese adjustments will enhance shot quality, stability, and reduce injury risk\u200b (PLOS)\u200b\u200b (PeerJ)\u200b.",
+                    "correct_approach_video": "LLTW.mp4"
+                },
+                {
+                    "feedbackArea": "SPSPU",
+                    "clips": [
+                        "user_input_video1_Forehand_lift_SPSPU_11.mp4_compressed.mp4"
+                    ],
+                    "observation": "Observation\nIt is observed that the student tends to stay upright in the center of the court while preparing to move to play a lift. This posture causes the student to remain in a more relaxed position, leading to slower reactions, a quicker but less controlled lunge, and difficulty in changing directions.\n\nAnalysis\nMaintaining an upright posture rather than a semi-squat or athletic stance negatively impacts several aspects of the lift shot. Key issues include:\n\nReaction Time: Staying upright makes it harder for muscles to contract efficiently, leading to slower reaction times. This can cause delays in reaching the shuttlecock, resulting in poor shot quality.\nLunge Stability: A more upright posture can make lunges less stable and controlled, reducing accuracy and power in shots. A semi-squat position engages the core and legs better, providing a stronger base for movement and shots.\nDirection Change: Being upright makes it harder to shift directions quickly, which is crucial for recovering and preparing for the next shot after a lift.\nResearch indicates that effective badminton play relies heavily on proper stance and movement. A semi-squat position, with knees slightly bent and body leaning forward, helps in maintaining balance and readiness for quick directional changes\u200b (MDPI)\u200b\u200b (Badminton Insight)\u200b.",
+                    "recommendation": "Recommendation\nTo improve the quality of your lifts and overall performance, adopt a semi-squat position when preparing for a lift. Here\u2019s how to do it:\n\nFootwork and Stance: Perform a split step and move into a semi-squat position with your knees bent, back straight, and body leaning slightly forward. This position should be your default when waiting to intercept the shuttle\u200b (Badminton Insight)\u200b.\n\nCore Engagement: Keep your core engaged to maintain balance and control. This will also help in generating more power from your legs and torso, making your lifts more effective\u200b (Master Badminton)\u200b.\n\nHead Position: Keep your head up and eyes on the shuttle. This improves your timing and allows you to anticipate your opponent's next move more effectively\u200b (Badminton Insight)\u200b.\n\nBy implementing these adjustments, you should see significant improvements in your reaction time, shot accuracy, and overall gameplay quality.",
+                    "correct_approach_video": "SPSPU.mp4"
+                }
+            ]
+        },
+        "Overhead": {
+            "smash": [
+                {
+                    "feedbackArea": "HTRTL",
+                    "clips": [
+                        "user_input_video1_Overhead_smash_HTRTL_2.mp4_compressed.mp4",
+                        "user_input_video1_Overhead_smash_HTRTL_5.mp4_compressed.mp4"
+                    ],
+                    "observation": "Observation: It is observed that the student has a tendency to rotate his hip and torso too little while playing an overhead smash. The ideal position for maximum power is to rotate your hip and torso around 90 degrees. If you rotate your hip and torso too little, it affects your balance, your position under the shuttle, the smash contact point, and reduces the body\u2019s rotational force transferred into hitting a smash.\n\nWhy This Affects Power:\n\nBalance and Positioning: Insufficient rotation can lead to a weak kinetic chain, where the lower body does not effectively contribute to the shot, reducing the power generated\u200b (Badminton Justin)\u200b\u200b (MDPI)\u200b.\nRotational Force: Less rotation means a reduced contribution from the body\u2019s larger muscle groups, particularly the core and lower body, which are crucial for generating power in the smash\u200b (MDPI)\u200b.\nEnergy Transfer: Limited rotation restricts the body\u2019s ability to build up and transfer rotational energy through the trunk to the shoulder and then to the racket, leading to a weaker smash\u200b (MDPI)\u200b.",
+                    "recommendation": "Recommendation:\n\nIncrease your hip and torso rotation to approximately 90 degrees. This optimal rotation enhances the kinetic chain, ensuring the body\u2019s larger muscles contribute effectively. It also improves the timing and alignment of your contact point, maximizing the power transferred to the shuttle\u200b (Badminton Justin)\u200b\u200b (MDPI)\u200b.",
+                    "correct_approach_video": "HTRTL.mp4"
+                },
+                {
+                    "feedbackArea": "BTSTL",
+                    "clips": [
+                        "user_input_video1_Overhead_smash_BTSTL_6.mp4_compressed.mp4",
+                        "user_input_video1_Overhead_smash_BTSTL_8.mp4_compressed.mp4"
+                    ],
+                    "observation": "Observation and Explanation: The student contacts the shuttle behind their body during an overhead smash. This reduces power and increases the risk of injury by putting stress on the muscles and preventing full extension of the arm and shoulder\u200b (Paul Stewart Advanced Badminton Coach)\u200b\u200b (BadmintonMastery)\u200b.",
+                    "recommendation": "Recommendation: The student should focus on hitting the shuttle about 0.5m ahead of their body. This position enables full arm extension and optimal shoulder rotation, generating more power and reducing injury risk. Proper footwork and positioning drills can help achieve this ideal contact point\u200b (Badminton Justin)\u200b\u200b (Modern Badminton)\u200b.",
+                    "correct_approach_video": "BTSTL.mp4"
+                },
+                {
+                    "feedbackArea": "EARTH",
+                    "clips": [
+                        "user_input_video1_Overhead_smash_EARTH_9.mp4_compressed.mp4"
+                    ],
+                    "observation": "Observation: It is observed that the student raises his elbow and arm too high (>90 degrees) while playing an overhead smash.\n\nImpact on Power Generation:\nRaising the elbow and arm too high restricts the shoulder's range of motion and internal rotation, which are critical for generating maximum power during an overhead smash. When the arm is raised too high, it limits the ability to use the trunk and shoulder muscles effectively, disrupting the kinetic chain necessary for power generation. The optimal position for an overhead smash involves raising the elbow and arm at around 90 degrees, allowing for maximal shoulder internal rotation and a better contact point with the shuttlecock or ball\u200b (SpinServeSports Guide)\u200b\u200b (MDPI)\u200b.",
+                    "recommendation": "Recommendation:\nTo generate maximum power, the student should aim to raise their elbow and arm at approximately 90 degrees. This position ensures the correct ready position and allows for the maximum shoulder internal rotation. This alignment facilitates the efficient transfer of energy from the legs and trunk through the shoulder and into the racket, enhancing the power and speed of the smash\u200b (MDPI)\u200b\u200b (Talk Tennis)\u200b.",
+                    "correct_approach_video": "EARTH.mp4"
+                }
+            ]
+        }
+    }
+}

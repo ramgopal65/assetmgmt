@@ -1,0 +1,18 @@
+{
+  "name": "boorstrap",
+  "version": "0.0.0",
+  "description": "boorstrap",
+  "main": "index.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {},
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mongoose": "^7.4.3"
+  }
+}

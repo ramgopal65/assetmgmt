@@ -1,0 +1,2072 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Badminton Analysis API Documentation",
+        "version": "1.0.0",
+        "description": "A Node.js API documentation for Badminton Analysis project",
+        "contact": {
+            "name": "Mithun Kumar",
+            "email": "mithun.k@borqs.com"
+        },
+        "license": {
+            "name": "Architectural Design",
+            "url": "/assetmgmt/architecture"
+        },
+        "termsOfService": "/assetmgmt/architecture/terms-of-service"
+    },
+    "servers": [
+        {
+            "url": "http://api.visist.ai/assetmgmt"
+        },
+        {
+            "url": "http://stg.borqs.io/assetmgmt"
+        },
+        {
+            "url": "http://localhost:9002/assetmgmt"
+        }
+    ],
+    "tags": [
+        {
+            "name": "Users",
+            "description": "Endpoints for users"
+        },
+        {
+            "name": "Posts",
+            "description": "Endpoints for posts"
+        },
+        {
+            "name": "Whitelists",
+            "description": "Endpoints for whitelist"
+        },
+        {
+            "name": "Testimonials",
+            "description": "Endpoints for testimonials"
+        },
+        {
+            "name": "Academy",
+            "description": "Endpoints for academy"
+        }
+    ],
+    "components": {
+        "schemas": {
+            "generateOtp": {
+                "type": "object",
+                "oneOf": [
+                    {
+                        "properties": {
+                            "phone": {
+                                "type": "object",
+                                "properties": {
+                                    "cc": {
+                                        "type": "string",
+                                        "description": "country code for example '+91' for India"
+                                    },
+                                    "number": {
+                                        "type": "string",
+                                        "description": "Phone number"
+                                    }
+                                },
+                                "required": [
+                                    "cc",
+                                    "number"
+                                ]
+                            },
+                            "type": {
+                                "type": "string",
+                                "description": "enter the type i.e. registration"
+                            },
+                            "role": {
+                                "type": "string",
+                                "description": "if you are generating an OTP for coach login, enter 'coach' here"
+                            }
+                        },
+                        "required": [
+                            "phone",
+                            "type"
+                        ]
+                    },
+                    {
+                        "properties": {
+                            "email": {
+                                "type": "string",
+                                "description": "Your email address"
+                            },
+                            "type": {
+                                "type": "string",
+                                "description": "enter the type i.e. registration"
+                            }
+                        },
+                        "required": [
+                            "email",
+                            "type"
+                        ]
+                    }
+                ]
+            },
+            "registerWithLoginUser": {
+                "type": "object",
+                "properties": {
+                    "otpToken": {
+                        "properties": {
+                            "type": {
+                                "type": "string",
+                                "description": "registration"
+                            },
+                            "otp": {
+                                "type": "string",
+                                "description": "enter the OTP"
+                            }
+                        }
+                    },
+                    "profileData": {
+                        "properties": {
+                            "name": {
+                                "properties": {
+                                    "firstName": {
+                                        "type": "string",
+                                        "description": "enter your first name",
+                                        "required": "true"
+                                    },
+                                    "middleName": {
+                                        "type": "string",
+                                        "description": "enter your middle name",
+                                        "required": "false"
+                                    },
+                                    "lastName": {
+                                        "type": "string",
+                                        "description": "enter your last name",
+                                        "required": "false"
+                                    }
+                                }
+                            },
+                            "dob": {
+                                "type": "string",
+                                "description": "enter your date of birth in dd-mm-yyyy",
+                                "required": "false"
+                            },
+                            "gender": {
+                                "type": "string",
+                                "description": "enter Male, Female or Other",
+                                "required": "false"
+                            }
+                        }
+                    }
+                },
+                "required": [
+                    "otpToken",
+                    "profileData"
+                ]
+            },
+            "userLogin": {
+                "type": "object",
+                "oneOf": [
+                    {
+                        "properties": {
+                            "phone": {
+                                "type": "object",
+                                "properties": {
+                                    "cc": {
+                                        "type": "string",
+                                        "description": "country code for example '+91' for India"
+                                    },
+                                    "number": {
+                                        "type": "string",
+                                        "description": "Phone number"
+                                    }
+                                },
+                                "required": [
+                                    "cc",
+                                    "number"
+                                ]
+                            },
+                            "otp": {
+                                "type": "string",
+                                "description": "enter OTP"
+                            }
+                        },
+                        "required": [
+                            "phone",
+                            "otp"
+                        ]
+                    },
+                    {
+                        "properties": {
+                            "email": {
+                                "type": "string",
+                                "description": "enter the registered email address"
+                            },
+                            "password": {
+                                "type": "string",
+                                "description": "enter your password"
+                            }
+                        },
+                        "required": [
+                            "email",
+                            "password"
+                        ]
+                    }
+                ]
+            },
+            "updateUserDetails": {
+                "type": "object",
+                "properties": {
+                    "email": {
+                        "properties": {
+                            "email": {
+                                "type": "string",
+                                "description": "enter your name"
+                            }
+                        }
+                    },
+                    "profileData": {
+                        "properties": {
+                            "name": {
+                                "properties": {
+                                    "firstName": {
+                                        "type": "string",
+                                        "description": "enter your first name"
+                                    },
+                                    "middleName": {
+                                        "type": "string",
+                                        "description": "enter your middle name"
+                                    },
+                                    "lastName": {
+                                        "type": "string",
+                                        "description": "enter your last name"
+                                    }
+                                }
+                            },
+                            "dob": {
+                                "type": "string",
+                                "description": "enter your date of birth in dd-mm-yyyy"
+                            },
+                            "gender": {
+                                "type": "string",
+                                "description": "enter Male, Female or Other"
+                            },
+                            "height": {
+                                "type": "string",
+                                "description": "enter your height"
+                            },
+                            "weight": {
+                                "type": "string",
+                                "description": "enter your weight"
+                            },
+                            "gamingProfile": {
+                                "properties": {
+                                    "areasOfImprovement": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string",
+                                            "description": "enter the array of areas of improvement"
+                                        }
+                                    },
+                                    "exp": {
+                                        "type": "string",
+                                        "description": "experience level i.e. Beginner, Intermediate, Professional"
+                                    },
+                                    "goal": {
+                                        "type": "string",
+                                        "description": "enter your goal to achieve"
+                                    },
+                                    "injurySummary": {
+                                        "type": "string",
+                                        "description": "enter any injury happened in the past"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "updateGamePost": {
+                "type": "object",
+                "properties": {
+                    "strokeTechnique": {
+                        "type": "object",
+                        "properties": {
+                            "forehand": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string",
+                                    "description": "enter the array of forehand stroke techniques"
+                                }
+                            },
+                            "backhand": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string",
+                                    "description": "enter the array of backhand stroke techniques"
+                                }
+                            }
+                        }
+                    },
+                    "footwork": {
+                        "type": "object",
+                        "properties": {
+                            "attack": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string",
+                                    "description": "enter the array of attack footwork techniques"
+                                }
+                            },
+                            "defence": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string",
+                                    "description": "enter the array of defence footwork techniques"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "listPosts": {
+                "type": "object",
+                "properties": {
+                    "condition": {
+                        "type": "object",
+                        "properties": {
+                            "sharedWith": {
+                                "type": "string",
+                                "description": "enter the ID of the coach with whom the data is shared"
+                            }
+                        }
+                    }
+                }
+            },
+            "listPostsReviewer": {
+                "type": "object",
+                "properties": {
+                    "condition": {
+                        "type": "object",
+                        "properties": {
+                            "state": {
+                                "type": "string",
+                                "description": "enter the state of the review"
+                            },
+                            "poster": {
+                                "type": "string",
+                                "description": "enter the ID of the player who posted the data"
+                            }
+                        }
+                    }
+                }
+            },
+            "createWhitelist": {
+                "type": "object",
+                "oneOf": [
+                    {
+                        "properties": {
+                            "player": {
+                                "type": "object",
+                                "properties": {
+                                    "phone": {
+                                        "type": "object",
+                                        "properties": {
+                                            "cc": {
+                                                "type": "string",
+                                                "description": "enter the country code of the player's phone number"
+                                            },
+                                            "number": {
+                                                "type": "string",
+                                                "description": "enter the player's phone number"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "coach": {
+                                "type": "object",
+                                "properties": {
+                                    "phone": {
+                                        "type": "object",
+                                        "properties": {
+                                            "cc": {
+                                                "type": "string",
+                                                "description": "enter the country code of the coach's phone number"
+                                            },
+                                            "number": {
+                                                "type": "string",
+                                                "description": "enter the coach's phone number"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "hierarchyCode": {
+                                "type": "string",
+                                "description": "enter the hierarchy code of the enterprise sub-owner"
+                            }
+                        }
+                    },
+                    {
+                        "properties": {
+                            "player": {
+                                "type": "object",
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "description": "enter the email of the player"
+                                    }
+                                }
+                            },
+                            "coach": {
+                                "type": "object",
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "description": "enter the email of the coach"
+                                    }
+                                }
+                            },
+                            "hierarchyCode": {
+                                "type": "string",
+                                "description": "enter the hierarchy code of the enterprise sub-owner"
+                            }
+                        }
+                    }
+                ]
+            },
+            "getWhitelist": {
+                "type": "object",
+                "oneOf": [
+                    {
+                        "properties": {
+                            "phone": {
+                                "type": "object",
+                                "properties": {
+                                    "cc": {
+                                        "type": "string",
+                                        "description": "enter the country code of the phone number"
+                                    },
+                                    "number": {
+                                        "type": "string",
+                                        "description": "enter the phone number"
+                                    }
+                                }
+                            },
+                            "role": {
+                                "type": "string",
+                                "description": "enter the role of the individual"
+                            }
+                        }
+                    },
+                    {
+                        "properties": {
+                            "email": {
+                                "type": "object",
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "description": "enter the email address"
+                                    }
+                                }
+                            },
+                            "role": {
+                                "type": "string",
+                                "description": "enter the role of the individual"
+                            }
+                        }
+                    }
+                ]
+            },
+            "updateCoach": {
+                "type": "object",
+                "oneOf": [
+                    {
+                        "properties": {
+                            "coach": {
+                                "type": "object",
+                                "properties": {
+                                    "phone": {
+                                        "type": "object",
+                                        "properties": {
+                                            "cc": {
+                                                "type": "string",
+                                                "description": "enter the country code of the current coach's phone number"
+                                            },
+                                            "number": {
+                                                "type": "string",
+                                                "description": "enter the current coach's phone number"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "newCoach": {
+                                "type": "object",
+                                "properties": {
+                                    "phone": {
+                                        "type": "object",
+                                        "properties": {
+                                            "cc": {
+                                                "type": "string",
+                                                "description": "enter the country code of the new coach's phone number"
+                                            },
+                                            "number": {
+                                                "type": "string",
+                                                "description": "enter the new coach's phone number"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "properties": {
+                            "coach": {
+                                "type": "object",
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "description": "enter the current coach's email"
+                                    }
+                                }
+                            },
+                            "newCoach": {
+                                "type": "object",
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "description": "enter the new coach's email"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "deleteWhitelistData": {
+                "type": "array",
+                "items": {
+                    "oneOf": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "email": {
+                                    "type": "string",
+                                    "description": "enter the email of the user to be deleted"
+                                }
+                            }
+                        },
+                        {
+                            "type": "object",
+                            "properties": {
+                                "phone": {
+                                    "type": "object",
+                                    "properties": {
+                                        "cc": {
+                                            "type": "string",
+                                            "description": "enter the country code of the user's phone number"
+                                        },
+                                        "number": {
+                                            "type": "string",
+                                            "description": "enter the user's phone number"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "createTestimonial": {
+                "type": "object",
+                "properties": {
+                    "testimonialContent": {
+                        "type": "string",
+                        "description": "enter the testimonial contents here"
+                    }
+                }
+            },
+            "getAllTestimonial": {
+                "type": "object",
+                "properties": {
+                    "condition": {
+                        "type": "object",
+                        "properties": {
+                            "_id": {
+                                "type": "string",
+                                "description": "you can leave it blank or pass the testimonial id"
+                            }
+                        }
+                    },
+                    "skip": {
+                        "type": "string",
+                        "description": "you can set the skip value here"
+                    },
+                    "limit": {
+                        "type": "string",
+                        "description": "you can set the limit value here"
+                    }
+                }
+            },
+            "Academy": {
+                "type": "object",
+                "required": [
+                    "name",
+                    "courts"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "example": "My academy"
+                    },
+                    "courts": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Court"
+                        }
+                    }
+                }
+            },
+            "Court": {
+                "type": "object",
+                "required": [
+                    "name",
+                    "cameras"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "example": "Court1"
+                    },
+                    "cameras": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Camera"
+                        }
+                    }
+                }
+            },
+            "Camera": {
+                "type": "object",
+                "required": [
+                    "name",
+                    "id"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "example": "Cam1"
+                    },
+                    "id": {
+                        "type": "string",
+                        "example": "0123456789AABBCC"
+                    }
+                }
+            },
+            "getAcademyDetails": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "enter the name of an academy you want to look for"
+                    },
+                    "court": {
+                        "type": "string",
+                        "description": "enter the name of the court you want to play in"
+                    }
+                }
+            }
+        },
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "http",
+                "scheme": "bearer",
+                "bearerFormat": "JWT"
+            }
+        }
+    },
+    "paths": {
+        "/user/otp": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "OTP for registration or login",
+                "description": "generate an OTP for registration or login of a user",
+                "operationId": "otp",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/generateOtp"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "otp generated and sent successfully"
+                    },
+                    "400": {
+                        "description": "error while generating or sending otp. not in whitelist, contact admin for support"
+                    },
+                    "401": {
+                        "description": "user not found"
+                    }
+                }
+            }
+        },
+        "/user/register-login/{id}": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Login a user while creating the user",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "enter the user id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "description": "Use this endpoint to create and login a user",
+                "operationId": "register",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/registerWithLoginUser"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user registered successfully"
+                    },
+                    "400": {
+                        "description": "Either email or phone number is mandatory for registration."
+                    },
+                    "401": {
+                        "description": "Token expired. Please generate a new token to continue."
+                    },
+                    "422": {
+                        "description": "country code for phone number or email is either missing or invalid."
+                    }
+                }
+            }
+        },
+        "/user/register/{id}": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Register a user",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "enter the user id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "description": "Use this endpoint to register a coach only",
+                "operationId": "registerOnly",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/registerWithLoginUser"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user registered successfully"
+                    },
+                    "400": {
+                        "description": "Either email or phone number is mandatory for registration."
+                    },
+                    "401": {
+                        "description": "Token expired. Please generate a new token to continue."
+                    },
+                    "422": {
+                        "description": "country code for phone number or email is either missing or invalid."
+                    }
+                }
+            }
+        },
+        "/user/login": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "User login",
+                "description": "User login by phone number and OTP",
+                "operationId": "login",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/userLogin"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user logged in successfully"
+                    },
+                    "400": {
+                        "description": "error while logging in user. error while logging in user. incorrect otp provided"
+                    },
+                    "401": {
+                        "description": "user not found"
+                    }
+                }
+            }
+        },
+        "/user": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "User details",
+                "description": "Get user details",
+                "operationId": "userDetails",
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Authentication error"
+                    },
+                    "401": {
+                        "description": "Unauthorized! Invalid token. Error in verifying token"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Update a user information",
+                "description": "Update information for a user",
+                "operationId": "updateUserDetails",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/updateUserDetails"
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Updated one user by ID successfully"
+                    },
+                    "400": {
+                        "description": "Authentication error"
+                    },
+                    "401": {
+                        "description": "Unauthorized! Invalid token. Error in verifying token"
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Delete a user",
+                "description": "Delete a user by self",
+                "operationId": "deleteUser",
+                "responses": {
+                    "200": {
+                        "description": "One user deleted successfully by ID"
+                    },
+                    "400": {
+                        "description": "Authentication error"
+                    },
+                    "401": {
+                        "description": "Unauthorized! Invalid token. Error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/user/token/refresh": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Get the refresh token",
+                "description": "This endpoint can be used to get the refresh token once the token is expired after login",
+                "operationId": "refreshToken",
+                "responses": {
+                    "200": {
+                        "description": "user token refreshed successfully"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/user/logout": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Logout",
+                "description": "Logs out a user",
+                "operationId": "logout",
+                "responses": {
+                    "200": {
+                        "description": "user logged out successfully"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/user/profile-pic": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Stream profile picture",
+                "description": "Get the profile picture of a user",
+                "operationId": "getProfilePic",
+                "responses": {
+                    "200": {
+                        "description": "Unrecognized response type; displaying content as text."
+                    },
+                    "400": {
+                        "description": "Authentication error"
+                    },
+                    "401": {
+                        "description": "Unauthorized! Invalid token. Error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            },
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "parameters": [
+                    {
+                        "name": "filename",
+                        "in": "header",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "streamsize",
+                        "in": "header",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "summary": "Update the profile picture",
+                "description": "Update the profile picture of a user",
+                "operationId": "updateProfilePic",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "image/*": {
+                            "schema": {
+                                "type": "string",
+                                "format": "binary"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Updated profile pic of one user"
+                    },
+                    "400": {
+                        "description": "Authentication error"
+                    },
+                    "401": {
+                        "description": "Unauthorized! Invalid token. Error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/user/buy-credit/": {
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "buy credits",
+                "description": "Buy more credits once exhausted",
+                "operationId": "buyCredits",
+                "responses": {
+                    "200": {
+                        "description": "bought review credits successfully"
+                    },
+                    "400": {
+                        "description": "account has unused review credits"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/?type=game": {
+            "put": {
+                "tags": [
+                    "Posts"
+                ],
+                "parameters": [
+                    {
+                        "name": "filename",
+                        "in": "header",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "streamsize",
+                        "in": "header",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "summary": "create a game post",
+                "description": "Create a game post by a user",
+                "operationId": "createGamePost",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "video/*": {
+                            "schema": {
+                                "type": "string",
+                                "format": "binary"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "one post created successfully."
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/?postId={postId}": {
+            "post": {
+                "tags": [
+                    "Posts"
+                ],
+                "parameters": [
+                    {
+                        "name": "postId",
+                        "in": "path",
+                        "description": "enter the post id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "filename",
+                        "in": "header",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "streamsize",
+                        "in": "header",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "summary": "update a game post",
+                "description": "Update a game post by a user",
+                "operationId": "updateGamePost",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/updateGamePost"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "one post updated successfully"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/fav/{postId}&true": {
+            "post": {
+                "tags": [
+                    "Posts"
+                ],
+                "parameters": [
+                    {
+                        "name": "postId",
+                        "in": "path",
+                        "description": "enter the post id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "filename",
+                        "in": "header",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "streamsize",
+                        "in": "header",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "summary": "mark a favorite",
+                "description": "mark a post favorite",
+                "operationId": "markFavorite",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "video/*": {
+                            "schema": {
+                                "type": "string",
+                                "format": "binary"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "one post updated successfully by id"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/?postId={postId}&type=game": {
+            "get": {
+                "tags": [
+                    "Posts"
+                ],
+                "parameters": [
+                    {
+                        "name": "postId",
+                        "in": "path",
+                        "description": "enter the post id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "summary": "fetch a post",
+                "description": "Get the content of the post",
+                "operationId": "fetchGamePost",
+                "responses": {
+                    "200": {
+                        "description": "file recieved successfully"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error while retrieving one user by id"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/?postId={postId}&type=game&file={tnFilePath}": {
+            "get": {
+                "tags": [
+                    "Posts"
+                ],
+                "parameters": [
+                    {
+                        "name": "postId",
+                        "in": "path",
+                        "description": "enter the post id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "tnFilePath",
+                        "in": "path",
+                        "description": "enter the thumbnail path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "summary": "fetch gamepost thumbnail",
+                "description": "Get a thumbnail relevant to the post",
+                "operationId": "getThumbnail",
+                "responses": {
+                    "200": {
+                        "description": "sucess"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/?postId={postId}&type=review": {
+            "get": {
+                "tags": [
+                    "Posts"
+                ],
+                "parameters": [
+                    {
+                        "name": "postId",
+                        "in": "path",
+                        "description": "enter the post id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "summary": "fetch a reviewed post",
+                "description": "get a reviewed post contents",
+                "operationId": "fetchReviewedPost",
+                "responses": {
+                    "200": {
+                        "description": "success"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/searchCount": {
+            "post": {
+                "tags": [
+                    "Posts"
+                ],
+                "summary": "coach - get post count shared with me",
+                "description": "get the post counts shared with a coach",
+                "operationId": "postsCount",
+                "responses": {
+                    "200": {
+                        "description": "posts count retrieved successfully"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/search": {
+            "post": {
+                "tags": [
+                    "Posts"
+                ],
+                "summary": "coach - list all posts shared with me",
+                "description": "get all the posts shared with a coach",
+                "operationId": "listAllPosts",
+                "requestBody": {
+                    "required": "true",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/listPosts"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "posts retrieved successfully"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/search/": {
+            "post": {
+                "tags": [
+                    "Posts"
+                ],
+                "summary": "reviewer - list all posts related with a poster",
+                "description": "get all the posts listed under a user with userId",
+                "operationId": "listAllPostsForReviewer",
+                "requestBody": {
+                    "required": "true",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/listPostsReviewer"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "posts retrieved successfully"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/searchCount/": {
+            "post": {
+                "tags": [
+                    "Posts"
+                ],
+                "summary": "reviewer - list all posts count related with a poster",
+                "description": "get all the posts count listed under a user with userId",
+                "operationId": "listAllPostsForReviewer",
+                "requestBody": {
+                    "required": "true",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/listPostsReviewer"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "posts count retrieved successfully"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/?type=review&gamePost={postId}": {
+            "post": {
+                "tags": [
+                    "Posts"
+                ],
+                "parameters": [
+                    {
+                        "name": "postId",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "filename",
+                        "in": "header",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "streamsize",
+                        "in": "header",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    },
+                    {
+                        "name": "reviewindex",
+                        "in": "header",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "summary": "reviewer - create a review post",
+                "description": "reviewer - create a review post",
+                "operationId": "updateProfilePic",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "video/*": {
+                            "schema": {
+                                "type": "string",
+                                "format": "binary"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "one post updated successfully"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/post/?postId={postId}/": {
+            "delete": {
+                "tags": [
+                    "Posts"
+                ],
+                "parameters": [
+                    {
+                        "name": "postId",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "summary": "delete a post by id",
+                "description": "delete a post by id",
+                "operationId": "deletePost",
+                "responses": {
+                    "200": {
+                        "description": "one post deleted successfully by id"
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/whitelist": {
+            "put": {
+                "tags": [
+                    "Whitelists"
+                ],
+                "summary": "Create one entry in whitelist data",
+                "description": "Create a whitelist entry",
+                "operationId": "createWhitelistData",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/createWhitelist"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "One whitelist user created successfully"
+                    },
+                    "400": {
+                        "description": "Error while creating one whitelist user"
+                    },
+                    "401": {
+                        "description": "Unauthorized! Invalid token. Error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            },
+            "post": {
+                "tags": [
+                    "Whitelists"
+                ],
+                "summary": "Check if whitelisted",
+                "description": "Check if the phone/email is whitelisted",
+                "operationId": "getWhitelistedData",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/getWhitelist"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Entered data is in our whitelist"
+                    },
+                    "400": {
+                        "description": "Not in whitelist, contact admin for support"
+                    },
+                    "401": {
+                        "description": "Unauthorized! Invalid token. Error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            },
+            "delete": {
+                "tags": [
+                    "Whitelists"
+                ],
+                "summary": "Delete a whitelist data",
+                "description": "Delete a whitelisted data",
+                "operationId": "deleteOneWhitelistData",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/getWhitelist"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Whitelisted data deleted successfully."
+                    },
+                    "400": {
+                        "description": "Error while deleting one entry"
+                    },
+                    "401": {
+                        "description": "Unauthorized! Invalid token. Error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/whitelist/multiple": {
+            "post": {
+                "tags": [
+                    "Whitelists"
+                ],
+                "summary": "Create multiple entries in whitelist data",
+                "description": "Create multiple whitelist entries",
+                "operationId": "createMultipleWhitelistData",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "file": {
+                                        "type": "string",
+                                        "format": "binary"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Multiple users created successfully"
+                    },
+                    "400": {
+                        "description": "Error while creating multiple users"
+                    },
+                    "401": {
+                        "description": "Unauthorized! Invalid token. Error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            },
+            "delete": {
+                "tags": [
+                    "Whitelists"
+                ],
+                "summary": "Delete multiple whitelist data",
+                "description": "Delete multiple whitelisted data entries",
+                "operationId": "deleteMultipleWhitelistData",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/deleteWhitelistData"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Multiple whitelisted data entries deleted successfully"
+                    },
+                    "400": {
+                        "description": "Error while deleting multiple entries"
+                    },
+                    "401": {
+                        "description": "Unauthorized! Invalid token. Error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/whitelist/update-coach": {
+            "patch": {
+                "tags": [
+                    "Whitelists"
+                ],
+                "summary": "update a coach",
+                "description": "update the coach phone or email",
+                "operationId": "updateCoachData",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/updateCoach"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "whitelisted data updated successfully"
+                    },
+                    "400": {
+                        "description": "error while updating one entry"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/testimonial": {
+            "put": {
+                "tags": [
+                    "Testimonials"
+                ],
+                "summary": "create one testimonial",
+                "description": "create a testimonial for our app",
+                "operationId": "createTestimonial",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/createTestimonial"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "one post created successfully."
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/testimonial/{id}": {
+            "get": {
+                "tags": [
+                    "Testimonials"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": "true",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "summary": "get one testimonial",
+                "description": "get a testimonial from our database",
+                "operationId": "getTestimonial",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/createTestimonial"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "one post created successfully."
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                }
+            }
+        },
+        "/testimonial/search": {
+            "get": {
+                "tags": [
+                    "Testimonials"
+                ],
+                "summary": "get all testimonials",
+                "description": "get all testimonials from our database",
+                "operationId": "getTestimonial",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/getAllTestimonial"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "one post created successfully."
+                    },
+                    "400": {
+                        "description": "authentication error"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token. error in verifying token"
+                    }
+                }
+            }
+        },
+        "/court": {
+            "put": {
+                "tags": [
+                    "Academy"
+                ],
+                "summary": "Create a new academy",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Academy"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "one academy created successfully"
+                    },
+                    "400": {
+                        "description": "error while creating one academy"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Academy"
+                ],
+                "summary": "get an academy details",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/getAcademyDetails"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "no academy found"
+                    },
+                    "401": {
+                        "description": "unauthorized! invalid token"
+                    }
+                }
+            }
+        },
+        "/court/update-academy{academyId}": {
+            "patch": {
+                "tags": [
+                    "Academy"
+                ],
+                "parameters": [
+                    {
+                        "name": "academyId",
+                        "in": "path",
+                        "description": "enter the academy id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "summary": "delete an academy and its details",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Academy"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "one academy details updated successfully"
+                    },
+                    "400": {
+                        "description": "error while updating one entry. cast error"
+                    },
+                    "401": {
+                        "description": "unauthorized! insufficient privilege"
+                    }
+                }
+            }
+        },
+        "/court/{academyId}": {
+            "delete": {
+                "tags": [
+                    "Academy"
+                ],
+                "parameters": [
+                    {
+                        "name": "academyId",
+                        "in": "path",
+                        "description": "enter the academy id",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "summary": "delete an academy and its details",
+                "responses": {
+                    "200": {
+                        "description": "academy is deleted successfully"
+                    },
+                    "400": {
+                        "description": "error while deleting one entry"
+                    },
+                    "401": {
+                        "description": "unauthorized! insufficient privilege"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,150 @@
+[2024-05-08T03:20:55.153Z][LOG] provision successful
+[2024-05-08T03:21:06.047Z][LOG] fileserver; monitor stream progress = 0.020717052505053728
+[2024-05-08T03:21:06.048Z][LOG] fileserver; monitor stream progress = 0.02083340115039437
+[2024-05-08T03:21:06.048Z][LOG] fileserver; monitor stream progress = 0.04154759262318562
+[2024-05-08T03:21:06.049Z][LOG] fileserver; monitor stream progress = 0.04166680230078874
+[2024-05-08T03:21:06.049Z][LOG] fileserver; monitor stream progress = 0.06237813274131752
+[2024-05-08T03:21:06.050Z][LOG] fileserver; monitor stream progress = 0.06250020345118311
+[2024-05-08T03:21:06.050Z][LOG] fileserver; monitor stream progress = 0.08320867285944941
+[2024-05-08T03:21:06.050Z][LOG] fileserver; monitor stream progress = 0.08333360460157747
+[2024-05-08T03:21:06.050Z][LOG] fileserver; monitor stream progress = 0.10403921297758131
+[2024-05-08T03:21:06.051Z][LOG] fileserver; monitor stream progress = 0.10416700575197185
+[2024-05-08T03:21:06.051Z][LOG] fileserver; monitor stream progress = 0.1248697530957132
+[2024-05-08T03:21:06.051Z][LOG] fileserver; monitor stream progress = 0.12500040690236622
+[2024-05-08T03:21:06.051Z][LOG] fileserver; monitor stream progress = 0.1457002932138451
+[2024-05-08T03:21:06.052Z][LOG] fileserver; monitor stream progress = 0.14583380805276058
+[2024-05-08T03:21:06.052Z][LOG] fileserver; monitor stream progress = 0.166530833331977
+[2024-05-08T03:21:06.053Z][LOG] fileserver; monitor stream progress = 0.16666720920315495
+[2024-05-08T03:21:06.053Z][LOG] fileserver; monitor stream progress = 0.1873613734501089
+[2024-05-08T03:21:06.053Z][LOG] fileserver; monitor stream progress = 0.18750061035354934
+[2024-05-08T03:21:06.053Z][LOG] fileserver; monitor stream progress = 0.2081919135682408
+[2024-05-08T03:21:06.054Z][LOG] fileserver; monitor stream progress = 0.2083340115039437
+[2024-05-08T03:21:06.055Z][LOG] fileserver; monitor stream progress = 0.22902245368637267
+[2024-05-08T03:21:06.055Z][LOG] fileserver; monitor stream progress = 0.22916741265433807
+[2024-05-08T03:21:06.055Z][LOG] fileserver; monitor stream progress = 0.24985299380450457
+.
+.
+.
+[2024-05-08T03:21:20.653Z][LOG] fileserver; monitor stream progress = 76.66691623345127
+[2024-05-08T03:21:20.775Z][LOG] fileserver; monitor stream progress = 78.33358832548284
+[2024-05-08T03:21:21.032Z][LOG] fileserver; monitor stream progress = 80.00026041751438
+[2024-05-08T03:21:21.484Z][LOG] fileserver; monitor stream progress = 81.66693250954593
+[2024-05-08T03:21:21.637Z][LOG] fileserver; monitor stream progress = 83.33360460157748
+[2024-05-08T03:21:21.672Z][LOG] fileserver; monitor stream progress = 85.00027669360902
+[2024-05-08T03:21:22.111Z][LOG] fileserver; monitor stream progress = 86.66694878564059
+[2024-05-08T03:21:22.326Z][LOG] fileserver; monitor stream progress = 88.33362087767213
+[2024-05-08T03:21:22.770Z][LOG] fileserver; monitor stream progress = 90.00029296970368
+[2024-05-08T03:21:23.032Z][LOG] fileserver; monitor stream progress = 91.66696506173523
+[2024-05-08T03:21:23.395Z][LOG] fileserver; monitor stream progress = 93.33363715376677
+[2024-05-08T03:21:23.665Z][LOG] fileserver; monitor stream progress = 95.00030924579832
+[2024-05-08T03:21:24.045Z][LOG] fileserver; monitor stream progress = 96.66698133782988
+[2024-05-08T03:21:24.101Z][LOG] fileserver; monitor stream progress = 98.33365342986143
+[2024-05-08T03:21:24.352Z][LOG] fileserver; monitor stream progress = 100
+[2024-05-08T03:21:25.559Z][LOG] file, chunk_upload, 200, one file created successfully from stream
+
+
+
+---------------------------------------------------------------
+[2024-05-08T03:25:33.657Z][LOG] provision successful
+[2024-05-08T03:25:51.488Z][LOG] fileserver; monitor stream progress = 0.06216239929199219
+[2024-05-08T03:25:51.488Z][LOG] fileserver; monitor stream progress = 0.0625
+[2024-05-08T03:25:51.489Z][LOG] fileserver; monitor stream progress = 0.12465381622314453
+[2024-05-08T03:25:51.490Z][LOG] fileserver; monitor stream progress = 0.125
+[2024-05-08T03:25:51.491Z][LOG] fileserver; monitor stream progress = 0.18714523315429688
+[2024-05-08T03:25:51.491Z][LOG] fileserver; monitor stream progress = 0.1875
+[2024-05-08T03:25:51.491Z][LOG] fileserver; monitor stream progress = 0.24963665008544922
+[2024-05-08T03:25:51.492Z][LOG] fileserver; monitor stream progress = 0.25
+[2024-05-08T03:25:51.492Z][LOG] fileserver; monitor stream progress = 0.31212806701660156
+[2024-05-08T03:25:51.493Z][LOG] fileserver; monitor stream progress = 0.3125
+[2024-05-08T03:25:51.493Z][LOG] fileserver; monitor stream progress = 0.3746194839477539
+[2024-05-08T03:25:51.493Z][LOG] fileserver; monitor stream progress = 0.375
+[2024-05-08T03:25:51.493Z][LOG] fileserver; monitor stream progress = 0.43711090087890625
+[2024-05-08T03:25:51.493Z][LOG] fileserver; monitor stream progress = 0.4375
+[2024-05-08T03:25:51.494Z][LOG] fileserver; monitor stream progress = 0.4996023178100586
+[2024-05-08T03:25:51.494Z][LOG] fileserver; monitor stream progress = 0.5
+[2024-05-08T03:25:51.494Z][LOG] fileserver; monitor stream progress = 0.5620937347412109
+[2024-05-08T03:25:51.495Z][LOG] fileserver; monitor stream progress = 0.5625
+[2024-05-08T03:25:51.495Z][LOG] fileserver; monitor stream progress = 0.6245851516723633
+[2024-05-08T03:25:51.495Z][LOG] fileserver; monitor stream progress = 0.625
+[2024-05-08T03:25:51.495Z][LOG] fileserver; monitor stream progress = 0.6870765686035156
+[2024-05-08T03:25:51.496Z][LOG] fileserver; monitor stream progress = 0.6875
+[2024-05-08T03:25:51.496Z][LOG] fileserver; monitor stream progress = 0.749567985534668
+.
+.
+.
+[2024-05-08T03:25:53.097Z][LOG] fileserver; monitor stream progress = 34.9375
+[2024-05-08T03:25:53.097Z][LOG] fileserver; monitor stream progress = 34.99904918670654
+[2024-05-08T03:25:53.097Z][LOG] fileserver; monitor stream progress = 35
+[2024-05-08T03:25:53.204Z][LOG] fileserver; monitor stream progress = 40
+[2024-05-08T03:25:53.833Z][LOG] fileserver; monitor stream progress = 45
+[2024-05-08T03:25:54.025Z][LOG] fileserver; monitor stream progress = 50
+[2024-05-08T03:25:54.396Z][LOG] fileserver; monitor stream progress = 55
+[2024-05-08T03:25:54.424Z][LOG] fileserver; monitor stream progress = 60
+[2024-05-08T03:25:54.705Z][LOG] fileserver; monitor stream progress = 65
+[2024-05-08T03:25:55.087Z][LOG] fileserver; monitor stream progress = 70
+[2024-05-08T03:25:55.427Z][LOG] fileserver; monitor stream progress = 75
+[2024-05-08T03:25:55.597Z][LOG] fileserver; monitor stream progress = 80
+[2024-05-08T03:25:55.633Z][LOG] fileserver; monitor stream progress = 85
+[2024-05-08T03:25:55.992Z][LOG] fileserver; monitor stream progress = 90
+[2024-05-08T03:25:56.281Z][LOG] fileserver; monitor stream progress = 95
+[2024-05-08T03:25:56.498Z][LOG] fileserver; monitor stream progress = 100
+[2024-05-08T03:25:59.722Z][LOG] file, chunk_upload, 200, one file created successfully from stream
+
+
+
+[2024-05-08T03:25:51.492Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.0625
+[2024-05-08T03:25:51.494Z][LOG] stream drain
+[2024-05-08T03:25:51.494Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.125
+[2024-05-08T03:25:51.495Z][LOG] stream drain
+[2024-05-08T03:25:51.495Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.1875
+[2024-05-08T03:25:51.495Z][LOG] stream drain
+[2024-05-08T03:25:51.496Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.25
+[2024-05-08T03:25:51.496Z][LOG] stream drain
+[2024-05-08T03:25:51.496Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.3125
+[2024-05-08T03:25:51.497Z][LOG] stream drain
+[2024-05-08T03:25:51.497Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.375
+[2024-05-08T03:25:51.497Z][LOG] stream drain
+[2024-05-08T03:25:51.497Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.4375
+[2024-05-08T03:25:51.497Z][LOG] stream drain
+[2024-05-08T03:25:51.498Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.5
+[2024-05-08T03:25:51.498Z][LOG] stream drain
+[2024-05-08T03:25:51.498Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.5625
+[2024-05-08T03:25:51.498Z][LOG] stream drain
+[2024-05-08T03:25:51.498Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.625
+[2024-05-08T03:25:51.499Z][LOG] stream drain
+[2024-05-08T03:25:51.499Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.6875
+[2024-05-08T03:25:51.499Z][LOG] stream drain
+[2024-05-08T03:25:51.499Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.75
+[2024-05-08T03:25:51.499Z][LOG] stream drain
+[2024-05-08T03:25:51.500Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.8125
+[2024-05-08T03:25:51.500Z][LOG] stream drain
+[2024-05-08T03:25:51.501Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.875
+[2024-05-08T03:25:51.502Z][LOG] stream drain
+[2024-05-08T03:25:51.502Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 0.9375
+[2024-05-08T03:25:51.503Z][LOG] stream drain
+[2024-05-08T03:25:51.503Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 1
+[2024-05-08T03:25:51.504Z][LOG] stream drain
+[2024-05-08T03:25:51.504Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 1.0625
+.
+.
+.
+[2024-05-08T03:25:52.038Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 99.5625
+[2024-05-08T03:25:52.039Z][LOG] stream drain
+[2024-05-08T03:25:52.039Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 99.625
+[2024-05-08T03:25:52.039Z][LOG] stream drain
+[2024-05-08T03:25:52.039Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 99.6875
+[2024-05-08T03:25:52.039Z][LOG] stream drain
+[2024-05-08T03:25:52.039Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 99.75
+[2024-05-08T03:25:52.039Z][LOG] stream drain
+[2024-05-08T03:25:52.039Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 99.8125
+[2024-05-08T03:25:52.039Z][LOG] stream drain
+[2024-05-08T03:25:52.040Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 99.875
+[2024-05-08T03:25:52.040Z][LOG] stream drain
+[2024-05-08T03:25:52.040Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 99.9375
+[2024-05-08T03:25:52.040Z][LOG] stream drain
+[2024-05-08T03:25:52.040Z][LOG] cFileServer2S3_streaming - 100mb.txt; percent progress = 100
+[2024-05-08T03:25:52.040Z][LOG] stream drain
+[2024-05-08T03:25:52.041Z][LOG] cFileServer2S3_streaming - 100mb.txt; stream end
+[2024-05-08T03:25:52.042Z][LOG] cFileServer2S3_streaming - 100mb.txt; stream finish
+[2024-05-08T03:25:52.042Z][LOG] stream drain
+[2024-05-08T03:25:52.042Z][LOG] cFileServer2S3_streaming - 100mb.txt; stream close
