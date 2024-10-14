@@ -32,6 +32,7 @@ pipeline {
                     sh 'npm run docker:build-boot'
                     sh 'docker images'
                     sh "docker tag bootstrap:latest ${BOOTSTRAP_IMAGE}:${BUILD_NUMBER}"
+                    sh 'docker images --format '{{.Repository}}:{{.Tag}}' | grep -v 'ramgopa65/bootstrap:${DOCKER_TAG}' | xargs -r docker rmi'
             }
         } 
         stage('Push Docker Image') {
