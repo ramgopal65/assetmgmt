@@ -43,7 +43,8 @@ pipeline {
                     sh "docker push ${BOOTSTRAP_IMAGE}:${BUILD_NUMBER}"
                     sh """
                     docker images --format '{{.Repository}}:{{.Tag}}' | \
-                    grep -vE 'ramgopa65/bootstrap:(${DOCKER_TAG}|latest)' | \
+                    grep -v 'ramgopal65/bootstrap:${DOCKER_TAG}' | \
+                    grep -v 'ramgopal65/bootstrap:latest' | \
                     xargs -r docker rmi
                     """
                 }
