@@ -29,6 +29,11 @@ pipeline {
                 -Dsonar.login=$SONAR_TOKEN
                 '''
             }
+        }
+        stage('Build Docker Image') {
+            steps {
+                    sh 'npm run docker:build-boot'
+            }
         }            
     }
      post {

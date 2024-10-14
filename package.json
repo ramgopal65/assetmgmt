@@ -70,9 +70,11 @@
   },
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --testTimeout=5000 --detectOpenHandles --forceExit",
-    "start": "node ./bootstrap/bin/bootstrap.js",
+    "start-boot": "node ./bootstrap/bin/bootstrap.js",
+    "start-asst": "node ./assetmgmt/bin/assetmgmt.js",
     "dev": "nodemon ./bootstrap/bin/bootstrap.js",
-    "docker:build": "docker build -t bootstrap .",
+    "docker:build-boot": "docker build -t bootstrap .",
+    "docker:build-asset": "docker build -t assetmgmt .",
     "docker:run": "docker run -d bootstrap"
   }
 }
