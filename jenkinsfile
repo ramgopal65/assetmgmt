@@ -21,7 +21,6 @@ pipeline {
             
         stage('SonarCloud Analysis') {
             steps {
-                // Run SonarCloud analysis
                 sh '''
                 npm install -g sonar-scanner
                 sonar-scanner \
