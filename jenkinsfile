@@ -1,5 +1,42 @@
 pipeline {
-  agent {
-   label { "agent-1" }
-  }
+    agent { label "agent-1"}
+    
+    environment {
+        SONAR_TOKEN=credentials('sonar-token')
+    }
+
+    stages {
+        stage('checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/ramgopal65/assetmgmt.git'
+            }
+        }
+        
+        stage('Install Dependencies') {
+            steps {
+                // Install npm dependencies
+                sh 'npm install'
+            }
+        }
+            
+        stage('SonarCloud Analysis') {
+            steps {
+                // Run SonarCloud analysis
+                sh '''
+                npm install -g sonar-scanner
+                sonar-scanner \
+                -Dsonar.projectKey=ramgopal65_sonar   \
+                -Dsonar.organization=ramgopal65 \
+                -Dsonar.host.url=https://sonarcloud.io \
+                -Dsonar.login=$SONAR_TOKEN
+                '''
+            }
+        }            
+    }
+     post {
+        always {
+            // Clean up or notify after the pipeline run
+            echo 'Cleaning up...'
+        }
+    }
 }
