@@ -14,12 +14,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/ramgopal65/assetmgmt.git'
             }
         }
-        
-        stage('Install Dependencies') {
-            steps {
-                sh 'npm install'
-            }
-        }
             
         stage('SonarCloud Analysis') {
             steps {
