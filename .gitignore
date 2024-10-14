@@ -14,4 +14,3 @@ output-applications.csv
 *.csv
 *.bak
 bin/Microsoft.NodejsTools.WebRole.dll
-.env
