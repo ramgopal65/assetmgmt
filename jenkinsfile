@@ -35,7 +35,6 @@ pipeline {
     }
      post {
         always {
-            // Clean up or notify after the pipeline run
             echo 'Cleaning up...'
         }
     }
