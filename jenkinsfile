@@ -41,7 +41,7 @@ pipeline {
                     echo $DOCKER_REGISTRY_CREDENTIALS_PSW | docker login -u $DOCKER_REGISTRY_CREDENTIALS_USR --password-stdin
                     """
                     sh "docker push ${BOOTSTRAP_IMAGE}:${BUILD_NUMBER}"
-                    sh "docker images --format '{{.Repository}}:{{.Tag}}' | grep -v 'ramgopa65/bootstrap:${DOCKER_TAG}' | xargs -r docker rmi"
+                    sh "docker images --format '{{.Repository}}:{{.Tag}}' | grep -v 'ramgopa65/bootstrap:${BUILD_NUMBER}' | xargs -r docker rmi"
                 }
             }
         }
