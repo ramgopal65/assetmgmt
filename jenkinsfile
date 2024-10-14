@@ -31,7 +31,7 @@ pipeline {
             steps {
                     sh 'npm run docker:build-boot'
                     sh 'docker images'
-                    sh "docker tag ${BOOTSTRAP_IMAGE}:latest ${BOOTSTRAP_IMAGE}:${BUILD_NUMBER}"
+                    sh "docker tag bootstrap:latest ${BOOTSTRAP_IMAGE}:${BUILD_NUMBER}"
             }
         } 
         stage('Push Docker Image') {
