@@ -31,7 +31,7 @@ pipeline {
             steps {
                     sh 'npm run docker:build-boot'
                     sh 'docker images'
-                    sh "docker tag bootstrap:${BUILD_NUMBER} ${BOOTSTRAP_IMAGE}:${BUILD_NUMBER}"
+                    sh "docker tag bootstrap:latest ${BOOTSTRAP_IMAGE}:${BUILD_NUMBER}"
             }
         } 
         stage('Push Docker Image') {
@@ -44,7 +44,7 @@ pipeline {
                     sh """
                     docker images --format '{{.Repository}}:{{.Tag}}' | \
                     grep -v 'ramgopal65/bootstrap:${BUILD_NUMBER}' | \
-                    grep -v 'bootstrap:${BUILD_NUMBER}' | \
+                    grep -v 'bootstrap:latest' | \
                     xargs -r docker rmi
                     """
                 }
